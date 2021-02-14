@@ -1,4 +1,5 @@
 (?:^|/)(?i)COPYRIGHT
 (?:^|/)(?i)LICEN[CS]E
+(?:^|/)vendor/
 ignore$
 ^\.github/
