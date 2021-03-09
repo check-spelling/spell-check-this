@@ -1,2 +1,3 @@
+(?:^|/)(?i)LICEN[CS]E
 ignore$
 ^\.github/
