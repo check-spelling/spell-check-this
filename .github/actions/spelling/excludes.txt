@@ -4,7 +4,14 @@
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)vendor/
 ignore$
+\.avi$
+\.ico$
+\.jpe?g$
 \.lock$
+\.map$
 \.min\.
 \.mod$
+\.mp[34]$
+\.png$
+\.wav$
 ^\.github/
