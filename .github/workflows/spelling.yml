@@ -6,7 +6,7 @@ on:
     types: [created]
 
 jobs:
-  build:
+  spelling:
     name: Spell checking
     runs-on: ubuntu-latest
     steps:
