@@ -3,7 +3,6 @@
 (?:^|/)(?i)LICEN[CS]E
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)vendor/
-ignore$
 \.avi$
 \.ico$
 \.jpe?g$
@@ -15,3 +14,4 @@ ignore$
 \.png$
 \.wav$
 ^\.github/
+ignore$
