@@ -22,15 +22,13 @@ jobs:
       # note: If you use only_check_changed_files, you do not want cancel-in-progress
       cancel-in-progress: true
     steps:
+    - name: checkout
+      uses: actions/checkout@v3
     - name: checkout-merge
       if: "contains(github.event_name, 'pull_request')"
-      uses: actions/checkout@v3
-      with:
-        ref: refs/pull/${{github.event.pull_request.number}}/merge
-    - name: checkout
-      if: github.event_name == 'push'
-      uses: actions/checkout@v3
+      uses: check-spelling/checkout-merge@v0.0.0
     - name: check-spelling
+      if: env.MERGE_FAILED != '1'
       id: spelling
       uses: check-spelling/check-spelling@main
       with:
