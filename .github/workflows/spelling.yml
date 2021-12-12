@@ -36,7 +36,7 @@ jobs:
         suppress_push_for_open_pull_request: 1
         post_comment: 0
     - name: store-comment
-      if: failure()
+      if: failure() && steps.spelling.outputs.internal_state_directory
       uses: actions/upload-artifact@v2
       with:
         retention-days: 1
