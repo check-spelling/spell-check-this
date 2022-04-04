@@ -1,8 +1,9 @@
 ^attache$
 benefitting
-occurence
+occurences?
 ^oer$
 Sorce
-^[Ss]pae
-^untill
-^wether
+^[Ss]pae.*
+^untill$
+^untilling$
+^wether.*
