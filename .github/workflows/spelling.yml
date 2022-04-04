@@ -1,4 +1,4 @@
-name: Spell checking
+name: Check Spelling
 on:
   push:
     branches: ["**"]
