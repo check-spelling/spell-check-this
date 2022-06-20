@@ -1,6 +1,8 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
 # acceptable duplicates
+# ls directory listings
+[-bcdlpsw](?:[-r][-w][-sx]){3}\s+\d+\s+(\S+)\s+\g{-1}\s+\d+\s+
 # C types
 \s(long|LONG) \g{-1}\s
 \@param\s+(\w+)\s+\g{-1}\s
