@@ -1,5 +1,5 @@
 <!-- See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples%3A-advice --> <!-- markdownlint-disable MD033 MD041 -->
-<details><summary>If the flagged items do not appear to be text</summary>
+<details><summary>If the flagged items are false positives</summary>
 
 If items relate to a ...
 * well-formed pattern.
