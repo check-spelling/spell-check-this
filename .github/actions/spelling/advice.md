@@ -2,16 +2,6 @@
 <details><summary>If the flagged items are false positives</summary>
 
 If items relate to a ...
-* well-formed pattern.
-
-  If you can write a [pattern](https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns) that would match it,
-  try adding it to the `patterns.txt` file.
-
-  Patterns are Perl 5 Regular Expressions - you can [test](
-https://www.regexplanet.com/advanced/perl/) yours before committing to verify it will match your lines.
-
-  Note that patterns can't match multiline strings.
-
 * binary file.
 
   Please add a file path to the `excludes.txt` file matching the containing file.
@@ -21,5 +11,15 @@ https://www.regexplanet.com/advanced/perl/) yours before committing to verify it
 
   `^` refers to the file's path from the root of the repository, so `^README\.md$` would exclude [README.md](
 ../tree/HEAD/README.md) (on whichever branch you're using).
+
+* well-formed pattern.
+
+  If you can write a [pattern](https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns) that would match it,
+  try adding it to the `patterns.txt` file.
+
+  Patterns are Perl 5 Regular Expressions - you can [test](
+https://www.regexplanet.com/advanced/perl/) yours before committing to verify it will match your lines.
+
+  Note that patterns can't match multiline strings.
 
 </details>
