@@ -2,7 +2,7 @@
 <details><summary>If the flagged items are false positives</summary>
 
 If items relate to a ...
-* binary file.
+* binary file (or some other file you wouldn't want to check at all).
 
   Please add a file path to the `excludes.txt` file matching the containing file.
 
