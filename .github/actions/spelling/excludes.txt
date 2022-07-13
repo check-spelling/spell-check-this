@@ -37,4 +37,4 @@ ignore$
 \.wav$
 \.woff2?$
 \.zip$
-^\.github/
+^\.github/actions/spelling/
