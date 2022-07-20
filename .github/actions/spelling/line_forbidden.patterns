@@ -16,6 +16,12 @@
 # s.b. another
 \ban[- ]other\b
 
+# s.b. greater than
+\bgreater then\b
+
+# s.b. less than
+\bless then\b
+
 # s.b. otherwise
 \bother[- ]wise\b
 
