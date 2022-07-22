@@ -6,7 +6,7 @@
 # C types
 \s(long|LONG) \g{-1}\s
 # javadoc / .net
-(?:\@(?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
+(?:[\\@](?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
 
 # ignore long runs of a single character:
 \b([A-Za-z])\g{-1}{3,}\b
