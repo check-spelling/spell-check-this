@@ -38,5 +38,11 @@
 # s.b. preemptively
 [Pp]re[- ]emptively
 
+# s.b. reentrancy
+[Rr]e[- ]entrancy
+
+# s.b. reentrant
+[Rr]e[- ]entrant
+
 # Reject duplicate words
 \s([A-Z]{3,}|[A-Z][a-z]{2,}|[a-z]{3,})\s\g{-1}\s
