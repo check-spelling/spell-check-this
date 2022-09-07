@@ -24,6 +24,9 @@
 # s.b. greater than
 \bgreater then\b
 
+# s.b. into
+\sin to\s
+
 # s.b. less than
 \bless then\b
 
