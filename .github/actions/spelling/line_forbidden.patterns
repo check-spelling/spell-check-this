@@ -1,6 +1,11 @@
 # reject `m_data` as there's a certain OS which has evil defines that break things if it's used elsewhere
 # \bm_data\b
 
+# If you have a framework that uses `it()` for testing and `fit()` for debugging a specific test,
+# you might not want to check in code where you were debugging w/ `fit()`, in which case, you might want
+# to use this:
+#\bfit\(
+
 # s.b. GitHub
 \bGithub\b
 
