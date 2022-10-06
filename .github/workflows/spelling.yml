@@ -1,5 +1,16 @@
 name: Check Spelling
 
+# Comment management is handled through a secondary job, for details see:
+# https://github.com/check-spelling/check-spelling/wiki/Feature%3A-Restricted-Permissions
+#
+# `jobs.comment-push` runs when a push is made to a repository and the `jobs.spelling` job needs to make a comment
+#   (in odd cases, it might actually run just to collapse a commment, but that's fairly rare)
+#   it needs `contents: write` in order to add a comment.
+#
+# `jobs.comment-pr` runs when a pull_request is made to a repository and the `jobs.spelling` job needs to make a comment
+#   or collapse a comment (in the case where it had previously made a comment and now no longer needs to show a comment)
+#   it needs `pull-requests: write` in order to manipulate those comments.
+
 # Updating pull request branches is managed via comment handling.
 # For details, see: https://github.com/check-spelling/check-spelling/wiki/Feature:-Update-expect-list
 #
@@ -56,14 +67,30 @@ jobs:
         post_comment: 0
         experimental_apply_changes_via_bot: 1
 
-  comment:
-    name: Report
+  comment-push:
+    name: Report (Push)
+    # If your workflow isn't running on push, you can remove this job
     runs-on: ubuntu-latest
     needs: spelling
     permissions:
       contents: write
+    if: (success() || failure()) && needs.spelling.outputs.followup && github.event_name == 'push'
+    steps:
+    - name: comment
+      uses: check-spelling/check-spelling@prerelease
+      with:
+        checkout: true
+        spell_check_this: check-spelling/spell-check-this@prerelease
+        task: ${{ needs.spelling.outputs.followup }}
+
+  comment-pr:
+    name: Report (PR)
+    # If you workflow isn't running on pull_request*, you can remove this job
+    runs-on: ubuntu-latest
+    needs: spelling
+    permissions:
       pull-requests: write
-    if: (success() || failure()) && needs.spelling.outputs.followup
+    if: (success() || failure()) && needs.spelling.outputs.followup && contains(github.event_name, 'pull_request')
     steps:
     - name: comment
       uses: check-spelling/check-spelling@main
