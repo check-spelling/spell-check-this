@@ -27,6 +27,9 @@
 # s.b. into
 \sin to\s
 
+# s.b. opt-in
+\sopt in\s
+
 # s.b. less than
 \bless then\b
 
