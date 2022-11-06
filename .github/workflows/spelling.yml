@@ -35,11 +35,22 @@ name: Check Spelling
 
 on:
   push:
-    branches: ["**"]
-    tags-ignore: ["**"]
+    branches:
+    - "**"
+    tags-ignore:
+    - "**"
   pull_request_target:
+    branches:
+    - "**"
+    tags-ignore:
+    - "**"
+    types:
+    - 'opened'
+    - 'reopened'
+    - 'synchronize'
   issue_comment:
-    types: [created]
+    types:
+    - 'created'
 
 jobs:
   spelling:
