@@ -4,7 +4,7 @@ name: Check Spelling
 # https://github.com/check-spelling/check-spelling/wiki/Feature%3A-Restricted-Permissions
 #
 # `jobs.comment-push` runs when a push is made to a repository and the `jobs.spelling` job needs to make a comment
-#   (in odd cases, it might actually run just to collapse a commment, but that's fairly rare)
+#   (in odd cases, it might actually run just to collapse a comment, but that's fairly rare)
 #   it needs `contents: write` in order to add a comment.
 #
 # `jobs.comment-pr` runs when a pull_request is made to a repository and the `jobs.spelling` job needs to make a comment
