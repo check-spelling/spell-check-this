@@ -5,7 +5,7 @@
 
 # https://cspell.org/configuration/document-settings/
 # cspell inline
-^.*// cspell:\s*disable-line
+^.*\b[Cc][Ss][Pp][Ee][Ll]{2}:\s*[Dd][Ii][Ss][Aa][Bb][Ll][Ee]-[Ll][Ii][Nn][Ee]\b
 
 # patch hunk comments
 ^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
