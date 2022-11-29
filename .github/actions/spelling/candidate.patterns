@@ -3,6 +3,10 @@
 # marker to ignore all code on line
 ^.*\bno-spell-check(?:-line|)(?:\s.*|)$
 
+# https://cspell.org/configuration/document-settings/
+# cspell inline
+^.*// cspell:\s*disable-line
+
 # patch hunk comments
 ^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
 # git index header
