@@ -46,6 +46,7 @@ ignore$
 \.png$
 \.psd$
 \.pyc$
+\.pylintrc$
 \.s$
 \.svgz?$
 \.tar$
