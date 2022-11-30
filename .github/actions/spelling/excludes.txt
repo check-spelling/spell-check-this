@@ -23,6 +23,7 @@ ignore$
 \.eot$
 \.exe$
 \.gif$
+\.git-blame-ignore-revs$
 \.gitattributes$
 \.graffle$
 \.gz$
