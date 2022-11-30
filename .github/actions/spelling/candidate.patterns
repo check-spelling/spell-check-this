@@ -1,7 +1,7 @@
 # marker to ignore all code on line
 ^.*/\* #no-spell-check-line \*/.*$
-# marker for ignoring a comment to the end of the line
-// #no-spell-check.*$
+# marker to ignore all code on line
+^.*\bno-spell-check(?:-line|)(?:\s.*|)$
 
 # patch hunk comments
 ^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
