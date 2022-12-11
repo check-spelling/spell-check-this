@@ -10,7 +10,7 @@
 # patch hunk comments
 ^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
 # git index header
-index [0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
+index (?:[0-9a-z]{7,40},|)[0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
 
 # cid urls
 (['"])cid:.*?\g{-1}
