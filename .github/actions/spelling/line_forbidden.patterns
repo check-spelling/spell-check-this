@@ -55,6 +55,9 @@
 # s.b. reentrant
 [Rr]e[- ]entrant
 
+# s.b. understand
+\bunder stand\b
+
 # s.b. workaround(s)
 \bwork[- ]arounds?\b
 
