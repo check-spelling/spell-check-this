@@ -366,6 +366,9 @@ ipfs://[0-9a-z]*
 # tinyurl
 \btinyurl\.com/\w+
 
+# codepen
+\bcodepen\.io/[\w/]+
+
 # getopts
 \bgetopts\s+(?:"[^"]+"|'[^']+')
 
