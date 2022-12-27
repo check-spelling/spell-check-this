@@ -287,9 +287,9 @@ slack://[a-zA-Z0-9?&=]+
 \bdropbox\.com/sh?/[^/\s"]+/[-0-9A-Za-z_.%?=&;]+
 
 # ipfs protocol
-ipfs://[0-9a-z]*
+ipfs://[0-9a-zA-Z]{3,}
 # ipfs url
-/ipfs/[0-9a-z]*
+/ipfs/[0-9a-zA-Z]{3,}
 
 # w3
 \bw3\.org/[-0-9a-zA-Z/#.]+
