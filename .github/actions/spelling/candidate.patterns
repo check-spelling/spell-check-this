@@ -477,7 +477,7 @@ posthog\.init\((['"])phc_[^"',]+\g{-1},
 # xcode
 
 # xcodeproject scenes
-(?:Controller|ID|id)="\w{3}-\w{2}-\w{3}"
+(?:Controller|destination|ID|id)="\w{3}-\w{2}-\w{3}"
 
 # xcode api botches
 customObjectInstantitationMethod
