@@ -373,7 +373,7 @@ ipfs://[0-9a-zA-Z]{3,}
 \bgetopts\s+(?:"[^"]+"|'[^']+')
 
 # ANSI color codes
-(?:\\(?:u00|x)1b|\x1b)\[\d+(?:;\d+|)m
+(?:\\(?:u00|x)1[Bb]|\x1b|\\u\{1[Bb]\})\[\d+(?:;\d+|)m
 
 # URL escaped characters
 \%[0-9A-F][A-F]
