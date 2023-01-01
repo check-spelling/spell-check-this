@@ -95,8 +95,11 @@
 # s.b. understand
 \bunder stand\b
 
-# s.b. workaround(s)
-\bwork[- ]arounds?\b
+# s.b. workarounds
+\bwork[- ]arounds\b
+
+# s.b. workaround
+(?:(?:[Aa]|[Tt]he|ugly)\swork[- ]around\b|\swork[- ]around\s+for)
 
 # s.b. (coarse|fine)-grained
 \b(?:coarse|fine) grained\b
