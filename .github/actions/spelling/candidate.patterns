@@ -96,7 +96,7 @@ vpc-\w+
 # Google Drive
 \bdrive\.google\.com/(?:file/d/|open)[-0-9a-zA-Z_?=]*
 # Google Groups
-\bgroups\.google\.com/(?:(?:forum/#!|d/)(?:msg|topics?|searchin)|a)/[^/\s"]+/[-a-zA-Z0-9$]+(?:/[-a-zA-Z0-9]+)*
+\bgroups\.google\.com(?:/[a-z]+/(?:#!|)[^/\s"]+)*
 # Google Maps
 \bmaps\.google\.com/maps\?[\w&;=]*
 # Google themes
