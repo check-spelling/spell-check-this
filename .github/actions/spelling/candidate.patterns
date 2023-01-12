@@ -42,6 +42,9 @@ magnet:[?=:\w]+
 # asciinema
 \basciinema\.org/a/[0-9a-zA-Z]+
 
+# asciinema v2
+^\[\d+\.\d+, "[io]", ".*"\]$
+
 # apple
 \bdeveloper\.apple\.com/[-\w?=/]+
 # Apple music
