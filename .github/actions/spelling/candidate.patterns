@@ -460,6 +460,8 @@ content: "[-a-zA-Z=;:/0-9+]*="
 ^\s*/\\[b].*/[gim]*\s*(?:\)(?:;|$)|,$)
 # javascript replace regex
 \.replace\(/[^/\s"]*/[gim]*\s*,
+# assign regex
+= /[^*]*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/
 
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
