@@ -372,6 +372,9 @@ ipfs://[0-9a-zA-Z]{3,}
 # codepen
 \bcodepen\.io/[\w/]+
 
+# registry.npmjs.org
+\bregistry\.npmjs\.org/(?:@[^/"']+/|)[^/"']+/-/[-\w@.]+
+
 # getopts
 \bgetopts\s+(?:"[^"]+"|'[^']+')
 
