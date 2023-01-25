@@ -12,6 +12,9 @@
 # git index header
 index (?:[0-9a-z]{7,40},|)[0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
 
+# css url wrappings
+\burl\([^)]+\)
+
 # cid urls
 (['"])cid:.*?\g{-1}
 
