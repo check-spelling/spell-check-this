@@ -524,6 +524,9 @@ customObjectInstantitationMethod
 # latex
 \\(?:n(?:ew|ormal|osub)|r(?:enew)|t(?:able(?:of|)|he|itle))(?=[a-z]+)
 
+# Windows short paths
+[/\\][^/\\]{5,6}~\d{1,2}[/\\]
+
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
 \\(?:necessary|r(?:eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
