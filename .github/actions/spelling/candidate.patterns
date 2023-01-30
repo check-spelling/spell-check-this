@@ -156,8 +156,8 @@ GHSA(?:-[0-9a-z]{4}){3}
 # GitLab commits
 \bgitlab\.[^/\s"]*/(?:[^/\s"]+/){2}commits?/[0-9a-f]+\b
 
-# binanace
-accounts.binance.com/[a-z/]*oauth/authorize\?[-0-9a-zA-Z&%]*
+# binance
+accounts\.binance\.com/[a-z/]*oauth/authorize\?[-0-9a-zA-Z&%]*
 
 # bitbucket diff
 \bapi\.bitbucket\.org/\d+\.\d+/repositories/(?:[^/\s"]+/){2}diff(?:stat|)(?:/[^/\s"]+){2}:[0-9a-f]+
