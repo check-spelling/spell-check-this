@@ -439,7 +439,7 @@ Name\[[^\]]+\]=.*
 \b(?:I|isA)(?=(?:[A-Z][a-z]{2,})+\b)
 
 # crypt
-"\$2[ayb]\$.{56}"
+(['"])\$2[ayb]\$.{56}\g{-1}
 
 # scrypt / argon
 \$(?:scrypt|argon\d+[di]*)\$\S+
@@ -451,7 +451,7 @@ Name\[[^\]]+\]=.*
 ("[^"]+"\s*%%?\s*){2,3}"[^"]+"
 
 # Input to GitHub JSON
-content: "[-a-zA-Z=;:/0-9+]*="
+content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 
 # This does not cover multiline strings, if your repository has them,
 # you'll want to remove the `(?=.*?")` suffix.
