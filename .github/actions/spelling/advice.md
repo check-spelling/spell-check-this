@@ -23,3 +23,7 @@ https://www.regexplanet.com/advanced/perl/) yours before committing to verify it
   Note that patterns can't match multiline strings.
 
 </details>
+
+<!-- adoption information-->
+:steam_locomotive: If you're seeing this message and your PR is from a branch that doesn't have check-spelling,
+please merge to your PR's base branch to get the version configured for your repository.
