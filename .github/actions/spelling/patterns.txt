@@ -15,7 +15,7 @@
 # C struct
 \bstruct\s+(\w+)\s+\g{-1}\b
 # go templates
-\s(\w+)\s+\g{-1}\s+\`(?:graphql|json|yaml):
+\s(\w+)\s+\g{-1}\s+\`(?:graphql|inject|json|yaml):
 # javadoc / .net
 (?:[\\@](?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
 
