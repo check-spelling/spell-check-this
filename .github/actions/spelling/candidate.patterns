@@ -542,6 +542,9 @@ customObjectInstantitationMethod
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
 
+# apache
+a2(?:en|dis)
+
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
 \\(?:necessary|r(?:eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
