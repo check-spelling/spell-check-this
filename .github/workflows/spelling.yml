@@ -93,7 +93,7 @@ jobs:
     if: (success() || failure()) && needs.spelling.outputs.followup && github.event_name == 'push'
     steps:
     - name: comment
-      uses: check-spelling/check-spelling@prerelease
+      uses: check-spelling/check-spelling@main
       with:
         checkout: true
         spell_check_this: check-spelling/spell-check-this@prerelease
