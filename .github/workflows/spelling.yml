@@ -42,8 +42,6 @@ on:
   pull_request_target:
     branches:
     - "**"
-    tags-ignore:
-    - "**"
     types:
     - 'opened'
     - 'reopened'
