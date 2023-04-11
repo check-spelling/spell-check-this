@@ -32,7 +32,7 @@
 \sin to\s
 
 # s.b. opt-in
-\sopt in\s
+(?<!\sfor)\sopt in\s
 
 # s.b. less than
 \bless then\b
