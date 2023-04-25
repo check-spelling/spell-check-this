@@ -23,6 +23,9 @@
 # s.b. another
 \ban[- ]other\b
 
+# s.b. deprecation warning
+\b[Dd]epreciation [Ww]arnings?\b
+
 # s.b. greater than
 \bgreater then\b
 
