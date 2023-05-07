@@ -47,6 +47,9 @@
 \bnon existing\b
 \b[Nn]o[nt][- ]existent\b
 
+# s.b. brief / details/ param / return / retval
+(?:^\s*|(?:\*|//|/*)\s+`)[\\@](?:breif|(?:detail|detials)|(?:params|prama?)|ret(?:uns?)|retvl)\b
+
 # s.b. preexisting
 [Pp]re[- ]existing
 
