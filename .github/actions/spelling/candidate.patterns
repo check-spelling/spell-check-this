@@ -410,6 +410,9 @@ sha\d+:[0-9]*[a-f]{3,}[0-9a-f]*
 # Well known gpg keys
 .well-known/openpgpkey/[\w./]+
 
+# pki
+-----BEGIN.*-----END
+
 # uuid:
 \b[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\b
 # hex digits including css/html color classes:
