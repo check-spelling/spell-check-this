@@ -16,8 +16,8 @@
 \bstruct\s+(\w+)\s+\g{-1}\b
 # go templates
 \s(\w+)\s+\g{-1}\s+\`(?:graphql|inject|json|yaml):
-# javadoc / .net
-(?:[\\@](?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
+# doxygen / javadoc / .net
+(?:[\\@](?:brief|groupname|t?param|return|retval)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
 
 # Commit message -- Signed-off-by and friends
 ^\s*(?:(?:Based-on-patch|Co-authored|Helped|Mentored|Reported|Reviewed|Signed-off)-by|Thanks-to): (?:[^<]*<[^>]*>|[^<]*)\s*$
