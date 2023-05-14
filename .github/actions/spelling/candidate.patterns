@@ -502,6 +502,9 @@ posthog\.init\((['"])phc_[^"',]+\g{-1},
 # xcode api botches
 customObjectInstantitationMethod
 
+# configure flags
+.* \| --\w{2,}.*?(?=\w+\s\w+)
+
 # font awesome classes
 \.fa-[-a-z0-9]+
 
