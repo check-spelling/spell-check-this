@@ -43,6 +43,9 @@
 # s.b. is obsolete
 \bis obsolescent\b
 
+# s.b. it's or its
+\bits['’]
+
 # s.b. opt-in
 (?<!\sfor)\sopt in\s
 
