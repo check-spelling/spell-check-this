@@ -12,10 +12,10 @@
 \bany more[,.]
 
 # s.b. GitHub
-\bGithub\b
+(?<![&*.]|// |\btype )\bGithub\b(?![{)])
 
 # s.b. GitLab
-\bGitlab\b
+(?<![&*.]|// |\btype )\bGitlab\b(?![{)])
 
 # s.b. JavaScript
 \bJavascript\b
