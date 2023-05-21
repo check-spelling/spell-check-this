@@ -451,7 +451,7 @@ content: "[-a-zA-Z=;:/0-9+]*="
 # printf
 %(?:(?:(?:hh?|ll?|[jzt])?[diuoxn]|l?[cs]|L?[fega]|p)(?=[a-z]{2,})|(?:X|L?[FEGA]|p)(?=[a-zA-Z]{2,}))(?=[_a-zA-Z]+\b)(?!%)(?=.*?['"])
 
-# Python stringprefix / binaryprefix
+# Python string prefix / binary prefix
 # Note that there's a high false positive rate, remove the `?=` and search for the regex to see if the matches seem like reasonable strings
 (?<!')\b(?:B|BR|Br|F|FR|Fr|R|RB|RF|Rb|Rf|U|UR|Ur|b|bR|br|f|fR|fr|r|rB|rF|rb|rf|u|uR|ur)'(?:[A-Z]{3,}|[A-Z][a-z]{2,}|[a-z]{3,})
 
