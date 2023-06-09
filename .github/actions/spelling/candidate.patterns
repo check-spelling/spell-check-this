@@ -143,7 +143,7 @@ themes\.googleusercontent\.com/static/fonts/[^/\s"]+/v\d+/[^.]+.
 # GitHub JSON
 "node_id": "[-a-zA-Z=;:/0-9+]*"
 # Contributor
-\[[^\]]+\]\(https://github\.com/[^/\s"]+\)
+\[[^\]]+\]\(https://github\.com/[^/\s"]+/?\)
 # GHSA
 GHSA(?:-[0-9a-z]{4}){3}
 
