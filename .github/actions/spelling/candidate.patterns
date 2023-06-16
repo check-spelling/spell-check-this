@@ -511,6 +511,9 @@ customObjectInstantitationMethod
 # font awesome classes
 \.fa-[-a-z0-9]+
 
+# bearer auth
+(['"])Bear[e][r] .*?\g{-1}
+
 # basic auth
 (['"])Basic [-a-zA-Z=;:/0-9+]{3,}\g{-1}
 
