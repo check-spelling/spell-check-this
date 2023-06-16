@@ -442,6 +442,9 @@ Name\[[^\]]+\]=.*
 # scrypt / argon
 \$(?:scrypt|argon\d+[di]*)\$\S+
 
+# go.sum
+\bh1:\S+
+
 # Input to GitHub JSON
 content: "[-a-zA-Z=;:/0-9+]*="
 
