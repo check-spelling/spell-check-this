@@ -5,6 +5,9 @@
 # https://www.tprteaching.com/log-into-log-in-to-login/
 \b(?:[Ll]og|[Ss]ign) in to\b
 
+# to opt in
+\bto opt in\b
+
 # acceptable duplicates
 # ls directory listings
 [-bcdlpsw](?:[-r][-w][-Ssx]){3}\s+\d+\s+\S+\s+\S+\s+\d+\s+
