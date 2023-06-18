@@ -3,7 +3,7 @@
 # Questionably acceptable forms of `in to`
 # Personally, I prefer `log into`, but people object
 # https://www.tprteaching.com/log-into-log-in-to-login/
-\b[Ll]og in to\b
+\b(?:[Ll]og|[Ss]ign) in to\b
 
 # acceptable duplicates
 # ls directory listings
