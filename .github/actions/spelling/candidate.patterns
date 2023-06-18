@@ -522,6 +522,9 @@ customObjectInstantitationMethod
 # base64 encoded content in xml/sgml
 >[-a-zA-Z=;:/0-9+]+=</
 
+# Time Zones
+\b(?:Africa|Atlantic|America|Antarctica|Asia|Australia|Europe|Indian|Pacific)(?:/\w+)+
+
 # linux kernel info
 ^(?:bugs|flags|Features)\s+:.*
 
