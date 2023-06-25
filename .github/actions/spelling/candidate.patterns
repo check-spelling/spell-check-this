@@ -478,6 +478,9 @@ content: "[-a-zA-Z=;:/0-9+]*="
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
 
+# proto
+^\s*(\w+)\s\g{-1} =
+
 # sed regular expressions
 sed 's/(?:[^/]*?[a-zA-Z]{3,}[^/]*?/){2}
 
