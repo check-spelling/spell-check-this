@@ -474,6 +474,8 @@ content: "[-a-zA-Z=;:/0-9+]*="
 \.replace\(/[^/\s"]*/[gim]*\s*,
 # assign regex
 = /[^*]*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/
+# perl regex test
+=~ /.*/
 
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
