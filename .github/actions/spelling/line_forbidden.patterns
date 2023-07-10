@@ -23,6 +23,9 @@
 # s.b. Microsoft
 \bMicroSoft\b
 
+# s.b. TypeScript
+\bTypescript\b
+
 # s.b. another
 \ban[- ]other\b
 
