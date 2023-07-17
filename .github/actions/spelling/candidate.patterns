@@ -433,8 +433,8 @@ integrity="sha\d+-[-a-zA-Z=;:/0-9+]{40,}"
 # Localized .desktop content
 Name\[[^\]]+\]=.*
 
-# IServiceProvider
-\bI(?=(?:[A-Z][a-z]{2,})+\b)
+# IServiceProvider / isAThing
+\b(?:I|isA)(?=(?:[A-Z][a-z]{2,})+\b)
 
 # crypt
 "\$2[ayb]\$.{56}"
