@@ -92,5 +92,9 @@
 # s.b. (coarse|fine)-grained
 \b(?:coarse|fine) grained\b
 
-# Reject duplicate words
+# In English, it is generally wrong to have the same word twice in a row without punctuation.
+# Duplicated words are generally mistakes.
+# There are a few exceptions where it is acceptable (e.g. "that that").
+# If the highlighted doubled word pair is in a code snippet, you can write a pattern to mask it.
+# If the highlighted doubled word pair is in prose, have someone read the English before you dismiss this error.
 \s([A-Z]{3,}|[A-Z][a-z]{2,}|[a-z]{3,})\s\g{-1}\s
