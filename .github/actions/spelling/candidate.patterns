@@ -418,7 +418,7 @@ sha\d+:[0-9]*[a-f]{3,}[0-9a-f]*
 # hex digits including css/html color classes:
 (?:[\\0][xX]|\\u|[uU]\+|#x?|\%23)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|[iu]\d+)\b
 # integrity
-integrity="sha\d+-[-a-zA-Z=;:/0-9+]{40,}"
+integrity=(['"])(?:\s*sha\d+-[-a-zA-Z=;:/0-9+]{40,})+\g{-1}
 
 # https://www.gnu.org/software/groff/manual/groff.html
 # man troff content
