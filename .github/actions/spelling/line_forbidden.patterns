@@ -92,6 +92,13 @@
 # s.b. (coarse|fine)-grained
 \b(?:coarse|fine) grained\b
 
+# s.b. neither/nor -- or reword
+\bnot\b[^.?!"/(]+\bnor\b
+
+# probably a double negative
+# s.b. neither/nor (plus rewording the beginning)
+\bnot\b[^.?!"/]*\bneither\b[^.?!"/(]*\bnor\b
+
 # In English, it is generally wrong to have the same word twice in a row without punctuation.
 # Duplicated words are generally mistakes.
 # There are a few exceptions where it is acceptable (e.g. "that that").
