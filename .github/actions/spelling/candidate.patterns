@@ -562,8 +562,11 @@ systemd.*?running in system mode \([-+].*\)$
 # This corpus only had capital letters, but you probably want lowercase ones as well.
 \b[LN]'+[a-z]{2,}\b
 
-# latex
+# latex (check-spelling <= 0.0.21)
 \\(?:n(?:ew|ormal|osub)|r(?:enew)|t(?:able(?:of|)|he|itle))(?=[a-z]+)
+
+# latex (check-spelling >= 0.0.22)
+\\\w{2,}\{
 
 # eslint
 "varsIgnorePattern": ".+"
@@ -574,6 +577,8 @@ systemd.*?running in system mode \([-+].*\)$
 # in check-spelling@v0.0.22+, printf markers aren't automatically consumed
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
+# alternate markers if you run into latex and friends
+(?<!\\)\\[nrt](?=[a-z]{2,})(?=.*['"`])
 
 # apache
 a2(?:en|dis)
