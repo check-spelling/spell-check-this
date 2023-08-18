@@ -480,7 +480,10 @@ content: "[-a-zA-Z=;:/0-9+]*="
 # assign regex
 = /[^*]*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/
 # perl regex test
-=~ /.*/
+[!=]~ (?:/.*/|m\{.*?\}|m<.*?>|m([|!/@#,;']).*?\g{-1})
+
+# perl qr regex
+(?<!\$)\bqr(?:\{.*?\}|<.*?>|\(.*?\)|([|!/@#,;']).*?\g{-1})
 
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
