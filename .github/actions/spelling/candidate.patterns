@@ -488,6 +488,9 @@ content: "[-a-zA-Z=;:/0-9+]*="
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
 
+# regex choice
+\(\?:[^)]+\|[^)]+\)
+
 # proto
 ^\s*(\w+)\s\g{-1} =
 
