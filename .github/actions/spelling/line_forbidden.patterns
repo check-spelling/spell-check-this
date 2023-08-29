@@ -58,6 +58,9 @@
 # s.b. otherwise
 \bother[- ]wise\b
 
+# s.b. or (more|less)
+\bore (?:more|less)\b
+
 # s.b. nonexistent
 \bnon existing\b
 \b[Nn]o[nt][- ]existent\b
