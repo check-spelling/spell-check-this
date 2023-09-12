@@ -55,6 +55,9 @@
 # s.b. less than
 \bless then\b
 
+# s.b. one of
+\bon of\b
+
 # s.b. otherwise
 \bother[- ]wise\b
 
