@@ -592,6 +592,9 @@ systemd.*?running in system mode \([-+].*\)$
 # apache
 a2(?:en|dis)
 
+# weak e-tag
+W/"[^"]+"
+
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
 \\(?:necessary|r(?:eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
