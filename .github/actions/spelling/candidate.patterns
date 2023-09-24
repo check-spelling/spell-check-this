@@ -130,6 +130,8 @@ themes\.googleusercontent\.com/static/fonts/[^/\s"]+/v\d+/[^.]+.
 (?:\[`?[0-9a-f]+`?\]\(https:/|)/(?:www\.|)github\.com(?:/[^/\s"]+){2,}(?:/[^/\s")]+)(?:[0-9a-f]+(?:[-0-9a-zA-Z/#.]*|)\b|)
 # GitHub SHAs
 \bgithub\.com(?:/[^/\s"]+){2}[@#][0-9a-f]+\b
+# GitHub SHA refs
+\[([0-9a-f]+)\]\(https://(?:www\.|)github.com/[-\w]+/[-\w]+/commit/\g{-1}[0-9a-f]*
 # GitHub wiki
 \bgithub\.com/(?:[^/]+/){2}wiki/(?:(?:[^/]+/|)_history|[^/]+(?:/_compare|)/[0-9a-f.]{40,})\b
 # githubusercontent
