@@ -20,6 +20,9 @@
 # s.b. JavaScript
 \bJavascript\b
 
+# s.b. macOS or Mac OS X or ...
+\bMacOS\b
+
 # s.b. Microsoft
 \bMicroSoft\b
 
