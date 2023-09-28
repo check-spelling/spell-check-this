@@ -519,7 +519,7 @@ go install(?:\s+[a-z]+\.[-@\w/.]+)+
 -[0-9a-f]{10}-\w{5}\s
 
 # posthog secrets
-posthog\.init\((['"])phc_[^"',]+\g{-1},
+([`'"])phc_[^"',]+\g{-1}
 
 # xcode
 
