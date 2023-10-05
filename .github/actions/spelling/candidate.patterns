@@ -508,6 +508,9 @@ sed 's/(?:[^/]*?[a-zA-Z]{3,}[^/]*?/){2}
 # go install
 go install(?:\s+[a-z]+\.[-@\w/.]+)+
 
+# jetbrains schema https://youtrack.jetbrains.com/issue/RSRP-489571
+urn:shemas-jetbrains-com
+
 # kubernetes pod status lists
 # https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase
 \w+(?:-\w+)+\s+\d+/\d+\s+(?:Running|Pending|Succeeded|Failed|Unknown)\s+
