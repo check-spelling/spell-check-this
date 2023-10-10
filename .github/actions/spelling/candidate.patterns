@@ -390,7 +390,7 @@ ipfs://[0-9a-zA-Z]{3,}
 (?:\\(?:u00|x)1[Bb]|\x1b|\\u\{1[Bb]\})\[\d+(?:;\d+|)m
 
 # URL escaped characters
-\%[0-9A-F][A-F]
+\%[0-9A-F][A-F](?=[A-Za-z])
 # lower URL escaped characters
 \%[0-9a-f][a-f](?=[a-z]{2,})
 # IPv6
