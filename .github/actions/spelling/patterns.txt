@@ -10,7 +10,7 @@
 
 # acceptable duplicates
 # ls directory listings
-[-bcdlpsw](?:[-r][-w][-Ssx]){3}\s+\d+\s+\S+\s+\S+\s+\d+\s+
+[-bcdlpsw](?:[-r][-w][-SsTtx]){3}[\.+*]?\s+\d+\s+\S+\s+\S+\s+[.\d]+(?:[KMGT]|)\s+
 # mount
 \bmount\s+-t\s+(\w+)\s+\g{-1}\b
 # C types and repeated CSS values
