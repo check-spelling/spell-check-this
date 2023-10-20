@@ -473,15 +473,15 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 
 # JavaScript regular expressions
 # javascript test regex
-/.*/[gim]*\.test\(
+/.{3,}/[gim]*\.test\(
 # javascript match regex
-\.match\(/[^/\s"]*/[gim]*\s*
+\.match\(/[^/\s"]{3,}/[gim]*\s*
 # javascript match regex
-\.match\(/\\[b].*?/[gim]*\s*\)(?:;|$)
+\.match\(/\\[b].{3,}?/[gim]*\s*\)(?:;|$)
 # javascript regex
-^\s*/\\[b].*/[gim]*\s*(?:\)(?:;|$)|,$)
+^\s*/\\[b].{3,}?/[gim]*\s*(?:\)(?:;|$)|,$)
 # javascript replace regex
-\.replace\(/[^/\s"]*/[gim]*\s*,
+\.replace\(/[^/\s"]{3,}/[gim]*\s*,
 # assign regex
 = /[^*]*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/
 # perl regex test
@@ -548,9 +548,9 @@ customObjectInstantitationMethod
 (['"])Basic [-a-zA-Z=;:/0-9+]{3,}\g{-1}
 
 # base64 encoded content
-([`'"])[-a-zA-Z=;:/0-9+]+=\g{-1}
+([`'"])[-a-zA-Z=;:/0-9+]{3,}=\g{-1}
 # base64 encoded content in xml/sgml
->[-a-zA-Z=;:/0-9+]+=</
+>[-a-zA-Z=;:/0-9+]{3,}=</
 # base64 encoded content, possibly wrapped in mime
 (?:^|[\s=;:?])[-a-zA-Z=;:/0-9+]{50,}(?:[\s=;:?]|$)
 
