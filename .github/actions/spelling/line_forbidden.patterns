@@ -29,6 +29,9 @@
 # s.b. Microsoft
 \bMicroSoft\b
 
+# s.b. OAuth
+(?:^|[^-/*$])[ '"]oAuth(?: [a-z]|\d+ |[^ a-zA-Z0-9:;_.()])
+
 # s.b. TypeScript
 \bTypescript\b
 
