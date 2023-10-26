@@ -73,6 +73,9 @@
 # s.b. or (more|less)
 \bore (?:more|less)\b
 
+# s.b. rather than
+\brather then\b
+
 # s.b. nonexistent
 \bnon existing\b
 \b[Nn]o[nt][- ]existent\b
