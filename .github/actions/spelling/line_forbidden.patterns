@@ -38,6 +38,9 @@
 # s.b. another
 \ban[- ]other\b
 
+# s.b. case-(in)sensitive
+\bcase (?:in|)sensitive\b
+
 # s.b. deprecation warning
 \b[Dd]epreciation [Ww]arnings?\b
 
