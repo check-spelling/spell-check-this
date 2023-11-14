@@ -79,6 +79,9 @@
 # s.b. rather than
 \brather then\b
 
+# s.b. `regardless, ...` or `regardless of (whether)`
+\b[Rr]egardless if you\b
+
 # s.b. nonexistent
 \bnon existing\b
 \b[Nn]o[nt][- ]existent\b
