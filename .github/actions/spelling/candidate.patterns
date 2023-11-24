@@ -493,6 +493,9 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 # perl run
 perl(?:\s+-[a-zA-Z]\w*)+
 
+# C network byte conversions
+(?:\d|\bh)to(?=[a-z])|to(?=[adhiklpun]\()
+
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
 
