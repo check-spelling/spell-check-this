@@ -152,6 +152,9 @@ themes\.googleusercontent\.com/static/fonts/[^/\s"]+/v\d+/[^.]+.
 # GHSA
 GHSA(?:-[0-9a-z]{4}){3}
 
+# GitHub actions
+\buses:\s+[-\w.]+/[-\w./]+@[-\w.]+
+
 # GitLab commit
 \bgitlab\.[^/\s"]*/\S+/\S+/commit/[0-9a-f]{7,16}#[0-9a-f]{40}\b
 # GitLab merge requests
