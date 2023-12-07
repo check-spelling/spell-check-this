@@ -4,8 +4,7 @@
 # \bm_data\b
 
 # If you have a framework that uses `it()` for testing and `fit()` for debugging a specific test,
-# you might not want to check in code where you were debugging w/ `fit()`, in which case, you might want
-# to use this:
+# you might not want to check in code where you were debugging w/ `fit()`.
 #\bfit\(
 
 # s.b. anymore
