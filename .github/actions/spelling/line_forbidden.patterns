@@ -88,6 +88,8 @@
 
 # s.b. nonexistent
 \bnon existing\b
+
+# s.b. nonexistent
 \b[Nn]o[nt][- ]existent\b
 
 # s.b. brief / details/ param / return / retval
