@@ -646,3 +646,5 @@ W/"[^"]+"
 \btput\s+(?:(?:-[SV]|-T\s*\w+)\s+)*\w{3,5}\b
 # macOS temp folders
 /var/folders/\w\w/[+\w]+/(?:T|-Caches-)/
+# github runner temp folders
+/home/runner/work/_temp/[-_/a-z0-9]+
