@@ -88,6 +88,9 @@
 # Should be `regardless, ...` or `regardless of (whether)`
 \b[Rr]egardless if you\b
 
+# Should be `no longer needed`
+\bno more needed\b(?! than\b)
+
 # Should be `nonexistent`
 \bnon existing\b
 
