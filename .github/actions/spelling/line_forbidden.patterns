@@ -67,6 +67,12 @@
 # Should be `it's` or `its`
 \bits['’]
 
+# Should be `its`
+\bit's(?= (?:child|only purpose|own(?:er|)|parent|sibling)\b)
+
+# Should be `perform its`
+\bperform it's\b
+
 # Should be `opt-in`
 (?<!\sfor)\sopt in\s
 
