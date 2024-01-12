@@ -67,6 +67,9 @@
 # Should be `it's` or `its`
 \bits['’]
 
+# Should be `its`
+\bit's(?= own\b)
+
 # Should be `opt-in`
 (?<!\sfor)\sopt in\s
 
