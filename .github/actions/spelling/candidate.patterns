@@ -610,6 +610,9 @@ systemd.*?running in system mode \([-+].*\)$
 # Windows short paths
 [/\\][^/\\]{5,6}~\d{1,2}[/\\]
 
+# cygwin paths
+/cygdrive/[a-zA-Z]/(?:Program Files(?: \(.*?\)| ?)(?:/[-+.~\\/()\w ]+)*|[-+.~\\/()\w])+
+
 # in check-spelling@v0.0.22+, printf markers aren't automatically consumed
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
