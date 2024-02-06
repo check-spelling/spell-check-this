@@ -473,7 +473,7 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 
 # Python string prefix / binary prefix
 # Note that there's a high false positive rate, remove the `?=` and search for the regex to see if the matches seem like reasonable strings
-(?<!')\b(?:B|BR|Br|F|FR|Fr|R|RB|RF|Rb|Rf|U|UR|Ur|b|bR|br|f|fR|fr|r|rB|rF|rb|rf|u|uR|ur)'(?=[A-Z]{3,}|[A-Z][a-z]{2,}|[a-z]{3,})
+(?<!['"])\b(?:B|BR|Br|F|FR|Fr|R|RB|RF|Rb|Rf|U|UR|Ur|b|bR|br|f|fR|fr|r|rB|rF|rb|rf|u|uR|ur)['"](?=[A-Z]{3,}|[A-Z][a-z]{2,}|[a-z]{3,})
 
 # Regular expressions for (P|p)assword
 \([A-Z]\|[a-z]\)[a-z]+
