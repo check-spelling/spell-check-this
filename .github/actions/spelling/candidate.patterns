@@ -501,7 +501,7 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 perl(?:\s+-[a-zA-Z]\w*)+
 
 # C network byte conversions
-(?:\d|\bh)to(?=[a-z])|to(?=[adhiklpun]\()
+(?:\d|\bh)to(?!ken)(?=[a-z])|to(?=[adhiklpun]\()
 
 # Go regular expressions
 regexp?\.MustCompile\(`[^`]*`\)
