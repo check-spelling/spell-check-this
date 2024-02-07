@@ -9,3 +9,7 @@
 # GPG Public Key
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 -----END PGP PUBLIC KEY BLOCK-----
+
+# Certificates
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
