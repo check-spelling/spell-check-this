@@ -8,7 +8,7 @@
 ^.*\b[Cc][Ss][Pp][Ee][Ll]{2}:\s*[Dd][Ii][Ss][Aa][Bb][Ll][Ee]-[Ll][Ii][Nn][Ee]\b
 
 # patch hunk comments
-^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
+^@@ -\d+(?:,\d+|) \+\d+(?:,\d+|) @@ .*
 # git index header
 index (?:[0-9a-z]{7,40},|)[0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
 
@@ -213,7 +213,7 @@ accounts\.binance\.com/[a-z/]*oauth/authorize\?[-0-9a-zA-Z&%]*
 # medium link
 \blink\.medium\.com/[a-zA-Z0-9]+
 # medium
-\bmedium\.com/\@?[^/\s"]+/[-\w]+
+\bmedium\.com/@?[^/\s"]+/[-\w]+
 
 # microsoft
 \b(?:https?://|)(?:(?:download\.visualstudio|docs|msdn2?|research)\.microsoft|blogs\.msdn)\.com/[-_a-zA-Z0-9()=./%]*
@@ -278,7 +278,7 @@ slack://[a-zA-Z0-9?&=]+
 [0-9a-f]{32}\@o\d+\.ingest\.sentry\.io\b
 
 # Twitter markdown
-\[\@[^[/\]:]*?\]\(https://twitter.com/[^/\s"')]*(?:/status/\d+(?:\?[-_0-9a-zA-Z&=]*|)|)\)
+\[@[^[/\]:]*?\]\(https://twitter.com/[^/\s"')]*(?:/status/\d+(?:\?[-_0-9a-zA-Z&=]*|)|)\)
 # Twitter hashtag
 \btwitter\.com/hashtag/[\w?_=&]*
 # Twitter status
@@ -333,7 +333,7 @@ ipfs://[0-9a-zA-Z]{3,}
 [^"\s]+/gitweb/\S+;h=[0-9a-f]+
 
 # HyperKitty lists
-/archives/list/[^@/]+\@[^/\s"]*/message/[^/\s"]*/
+/archives/list/[^@/]+@[^/\s"]*/message/[^/\s"]*/
 
 # lists
 /thread\.html/[^"\s]+
@@ -351,7 +351,7 @@ ipfs://[0-9a-zA-Z]{3,}
 \bopen\.spotify\.com/embed/playlist/\w+
 
 # Mastodon
-\bmastodon\.[-a-z.]*/(?:media/|\@)[?&=0-9a-zA-Z_]*
+\bmastodon\.[-a-z.]*/(?:media/|@)[?&=0-9a-zA-Z_]*
 
 # scastie
 \bscastie\.scala-lang\.org/[^/]+/\w+
@@ -516,7 +516,7 @@ regexp?\.MustCompile\(`[^`]*`\)
 sed 's/(?:[^/]*?[a-zA-Z]{3,}[^/]*?/){2}
 
 # node packages
-(["'])\@[^/'" ]+/[^/'" ]+\g{-1}
+(["'])@[^/'" ]+/[^/'" ]+\g{-1}
 
 # go install
 go install(?:\s+[a-z]+\.[-@\w/.]+)+
