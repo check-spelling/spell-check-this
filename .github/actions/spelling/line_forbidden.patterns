@@ -97,6 +97,9 @@
 # Should be `no longer needed`
 \bno more needed\b(?! than\b)
 
+# Should be `did not exist`
+\bwere not existent\b
+
 # Should be `nonexistent`
 \bnon existing\b
 
