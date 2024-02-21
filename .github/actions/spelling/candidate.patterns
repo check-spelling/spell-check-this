@@ -604,6 +604,9 @@ systemd.*?running in system mode \([-+].*\)$
 # latex (check-spelling >= 0.0.22)
 \\\w{2,}\{
 
+# American Mathematical Society (AMS) / Doxygen
+TeX/AMS
+
 # eslint
 "varsIgnorePattern": ".+"
 
