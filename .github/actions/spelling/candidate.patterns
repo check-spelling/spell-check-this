@@ -607,6 +607,9 @@ systemd.*?running in system mode \([-+].*\)$
 # American Mathematical Society (AMS) / Doxygen
 TeX/AMS
 
+# File extensions
+\*\.[+\w]+,
+
 # eslint
 "varsIgnorePattern": ".+"
 
