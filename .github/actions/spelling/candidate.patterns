@@ -622,7 +622,7 @@ TeX/AMS
 # in check-spelling@v0.0.22+, printf markers aren't automatically consumed
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
-# alternate markers if you run into latex and friends
+# alternate printf markers if you run into latex and friends
 (?<!\\)\\[nrt](?=[a-z]{2,})(?=.*['"`])
 
 # apache
