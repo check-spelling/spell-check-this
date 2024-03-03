@@ -82,6 +82,9 @@
 # Should be `less than`
 \bless then\b
 
+# Should be `load balancer`
+\b[Ll]oud balancer
+
 # Should be `one of`
 \bon of\b
 
