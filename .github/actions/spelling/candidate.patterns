@@ -652,6 +652,9 @@ W/"[^"]+"
 # Compiler flags (linker)
 ,-B
 
+# libraries
+\blib(?!rar(?:ies|y))(?=[a-z])
+
 # WWNN/WWPN (NAA identifiers)
 \b(?:0x)?10[0-9a-f]{14}\b|\b(?:0x|3)?[25][0-9a-f]{15}\b|\b(?:0x|3)?6[0-9a-f]{31}\b
 
