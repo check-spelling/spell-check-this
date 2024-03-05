@@ -490,7 +490,7 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 # javascript replace regex
 \.replace\(/[^/\s"]{3,}/[gim]*\s*,
 # assign regex
-= /[^*]*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/
+= /[^*].*?(?:[a-z]{3,}|[A-Z]{3,}|[A-Z][a-z]{2,}).*/[gi]?(?=\W|$)
 # perl regex test
 [!=]~ (?:/.*/|m\{.*?\}|m<.*?>|m([|!/@#,;']).*?\g{-1})
 
