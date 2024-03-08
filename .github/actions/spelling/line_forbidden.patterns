@@ -38,6 +38,9 @@
 # Should be `OAuth`
 (?:^|[^-/*$])[ '"]oAuth(?: [a-z]|\d+ |[^ a-zA-Z0-9:;_.()])
 
+# Should be `RabbitMQ`
+\bRabbitmq\b
+
 # Should be `TypeScript`
 \bTypescript\b
 
