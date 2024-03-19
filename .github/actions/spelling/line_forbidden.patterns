@@ -50,6 +50,9 @@
 # Should be `case-(in)sensitive`
 \bcase (?:in|)sensitive\b
 
+# Should be `coinciding`
+\bco-inciding\b
+
 # Should be `deprecation warning(s)`
 \b[Dd]epreciation [Ww]arnings?\b
 
