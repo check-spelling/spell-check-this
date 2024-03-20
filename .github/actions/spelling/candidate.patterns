@@ -458,6 +458,9 @@ Name\[[^\]]+\]=.*
 # scala modules
 ("[^"]+"\s*%%?\s*){2,3}"[^"]+"
 
+# Intel intrinsics
+_mm_\w+
+
 # Input to GitHub JSON
 content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 
