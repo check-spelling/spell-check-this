@@ -8,6 +8,19 @@
 # you might not want to check in code where you skip all the other tests.
 #\bfit\(
 
+# Should be `HH:MM:SS`
+\bHH:SS:MM\b
+
+# Should be `86400` (seconds in a standard day)
+\b84600\b(?:.*\bday\b)
+
+# Should probably be `2006-01-02` (yyyy-mm-dd)
+# Assuming that the time is being passed to https://go.dev/src/time/format.go
+\b2006-02-01\b
+
+# Should probably be `YYYYMMDD`
+\b[Yy]{4}[Dd]{2}[Mm]{2}(?!.*[Yy]{4}[Dd]{2}[Mm]{2}).*$
+
 # Should be `anymore`
 \bany more[,.]
 
