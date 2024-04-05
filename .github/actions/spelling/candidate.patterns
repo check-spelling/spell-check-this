@@ -548,6 +548,9 @@ urn:shemas-jetbrains-com
 # xcode api botches
 customObjectInstantitationMethod
 
+# msvc api botches
+PrependWithABINamepsace
+
 # configure flags
 .* \| --\w{2,}.*?(?=\w+\s\w+)
 
