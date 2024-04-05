@@ -444,7 +444,7 @@ integrity=(['"])(?:\s*sha\d+-[-a-zA-Z=;:/0-9+]{40,})+\g{-1}
 Name\[[^\]]+\]=.*
 
 # IServiceProvider / isAThing
-\b(?:I|isA)(?=(?:[A-Z][a-z]{2,})+(?:[A-Z]|\b))
+(?:\b|_)(?:I|isA)(?=(?:[A-Z][a-z]{2,})+(?:[A-Z]|\b))
 
 # crypt
 (['"])\$2[ayb]\$.{56}\g{-1}
