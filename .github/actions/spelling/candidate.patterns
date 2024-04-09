@@ -455,6 +455,9 @@ Name\[[^\]]+\]=.*
 # go.sum
 \bh1:\S+
 
+# scala imports
+^import (?:[\w.]|\{\w*?(?:,\s*(?:\w*|\*))+\})+
+
 # scala modules
 ("[^"]+"\s*%%?\s*){2,3}"[^"]+"
 
