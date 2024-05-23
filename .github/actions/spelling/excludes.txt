@@ -1,6 +1,7 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
 (?:^|/)(?i)COPYRIGHT
 (?:^|/)(?i)LICEN[CS]E
+(?:^|/)(?i)third[-_]?party/
 (?:^|/)3rdparty/
 (?:^|/)go\.sum$
 (?:^|/)package(?:-lock|)\.json$
