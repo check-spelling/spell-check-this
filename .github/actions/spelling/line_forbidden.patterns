@@ -172,7 +172,7 @@
 
 # Should be `neither/nor` (plus rewording the beginning)
 # This is probably a double negative...
-\bnot\b[^.?!"/]*\bneither\b[^.?!"/(]*\bnor\b
+\bnot\b[^.?!"/(]*\bneither\b[^.?!"/(]*\bnor\b
 
 # In English, duplicated words are generally mistakes
 # There are a few exceptions (e.g. "that that").
