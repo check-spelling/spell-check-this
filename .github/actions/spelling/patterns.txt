@@ -22,6 +22,9 @@
 # doxygen / javadoc / .net
 (?:[\\@](?:brief|groupname|link|t?param|return|retval)|(?:public|private|\[Parameter(?:\(.+\)|)\])(?:\s+(?:static|override|readonly|required|virtual))*)(?:\s+\{\w+\}|)\s+(\w+)\s+\g{-1}\s
 
+# macOS file path
+(?:Contents\W+|(?!iOS)/)MacOS\b
+
 # Python package registry has incorrect spelling for macOS / Mac OS X
 "Operating System :: MacOS :: MacOS X"
 
