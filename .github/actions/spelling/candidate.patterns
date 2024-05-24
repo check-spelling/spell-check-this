@@ -644,7 +644,7 @@ W/"[^"]+"
 
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
-\\(?:necessary|r(?:eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
+\\(?:necessary|r(?:elease|eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
 # ignore long runs of a single character:
 \b([A-Za-z])\g{-1}{3,}\b
 
