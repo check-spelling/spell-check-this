@@ -527,6 +527,9 @@ sed 's/(?:[^/]*?[a-zA-Z]{3,}[^/]*?/){2}
 # go install
 go install(?:\s+[a-z]+\.[-@\w/.]+)+
 
+# pom.xml
+<(?:group|artifact)Id>.*?<
+
 # jetbrains schema https://youtrack.jetbrains.com/issue/RSRP-489571
 urn:shemas-jetbrains-com
 
