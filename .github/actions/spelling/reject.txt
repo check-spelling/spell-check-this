@@ -6,6 +6,7 @@ dependan.*
 oer
 Sorce
 [Ss]pae.*
+Teh
 untill
 untilling
 wether.*
