@@ -29,7 +29,7 @@ index (?:[0-9a-z]{7,40},|)[0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
 \bdata:[-a-zA-Z=;:/0-9+]*,\S*
 
 # https/http/file urls
-(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]
+(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;]+[-A-Za-z0-9+&@#/*%=~_|]
 
 # mailto urls
 mailto:[-a-zA-Z=;:/?%&0-9+@._]{3,}
