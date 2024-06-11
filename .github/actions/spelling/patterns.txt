@@ -28,6 +28,9 @@
 # Python package registry has incorrect spelling for macOS / Mac OS X
 "Operating System :: MacOS :: MacOS X"
 
+# "company" in Germany
+\bGmbH\b
+
 # Commit message -- Signed-off-by and friends
 ^\s*(?:(?:Based-on-patch|Co-authored|Helped|Mentored|Reported|Reviewed|Signed-off)-by|Thanks-to): (?:[^<]*<[^>]*>|[^<]*)\s*$
 
