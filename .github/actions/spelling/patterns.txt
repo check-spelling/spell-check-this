@@ -31,6 +31,9 @@
 # "company" in Germany
 \bGmbH\b
 
+# IntelliJ
+\bIntelliJ\b
+
 # Commit message -- Signed-off-by and friends
 ^\s*(?:(?:Based-on-patch|Co-authored|Helped|Mentored|Reported|Reviewed|Signed-off)-by|Thanks-to): (?:[^<]*<[^>]*>|[^<]*)\s*$
 
