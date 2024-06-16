@@ -27,6 +27,9 @@
 # Should be `'`
 (?i)\b(?:(?:i|s?he|they|what|who|you)"ll|(?:are|ca|did|do|does|ha[ds]|have|is|should|were|wo|would)n"t|(?:s?he|let|that|there|what|where|who)"s|(?:i|they|we|what|who|you)"ve)\b
 
+# Should be `briefcase`
+\bbrief-case\b
+
 # Should be `cannot` (or `can't`)
 # See https://www.grammarly.com/blog/cannot-or-can-not/
 # > Don't use `can not` when you mean `cannot`. The only time you're likely to see `can not` written as separate words is when the word `can` happens to precede some other phrase that happens to start with `not`.
