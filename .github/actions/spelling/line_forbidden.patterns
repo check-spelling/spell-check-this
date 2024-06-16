@@ -170,6 +170,9 @@
 # Should be `workaround`
 (?:(?:[Aa]|[Tt]he|ugly)\swork[- ]around\b|\swork[- ]around\s+for)
 
+# Should be `worst`
+(?i)worse-case
+
 # Should be `(coarse|fine)-grained`
 \b(?:coarse|fine) grained\b
 
