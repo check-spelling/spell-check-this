@@ -33,14 +33,14 @@ name: Check Spelling
 #
 #   For background, see: https://github.com/check-spelling/check-spelling/wiki/Feature:-Update-with-deploy-key
 
-# Sarif reporting
+# SARIF reporting
 #
-# Access to Sarif reports is generally restricted (by GitHub) to members of the repository.
+# Access to SARIF reports is generally restricted (by GitHub) to members of the repository.
 #
 # Requires enabling `security-events: write`
 # and configuring the action with `use_sarif: 1`
 #
-#   For information on the feature, see: https://github.com/check-spelling/check-spelling/wiki/Feature:-Sarif-output
+#   For information on the feature, see: https://github.com/check-spelling/check-spelling/wiki/Feature:-SARIF-output
 
 # Minimal workflow structure:
 #
