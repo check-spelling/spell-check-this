@@ -104,6 +104,9 @@
 # Should be `its`
 \bit's(?= own\b)
 
+# Should be `log in`
+\blogin to the
+
 # Should be `perform its`
 \bperform it's\b
 
