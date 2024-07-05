@@ -173,6 +173,9 @@
 # Should be `understand`
 \bunder stand\b
 
+# Should be `URI` or `uri` unless it refers to a person named `Uri`
+(?<!\.)\bUri\b(?![(])
+
 # Should be `workarounds`
 \bwork[- ]arounds\b
 
