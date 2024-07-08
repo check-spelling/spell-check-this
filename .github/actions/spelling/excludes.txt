@@ -3,6 +3,7 @@
 (?:^|/)(?i)LICEN[CS]E
 (?:^|/)(?i)third[-_]?party/
 (?:^|/)3rdparty/
+(?:^|/)generated/
 (?:^|/)go\.sum$
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)Pipfile$
