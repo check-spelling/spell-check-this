@@ -667,7 +667,7 @@ W/"[^"]+"
 ,-B
 
 # libraries
-\blib(?!rar(?:i(?:an|es)|y))(?=[a-z])
+(?:\b|_)lib(?:re(?=office)|)(?!era[lt]|ero|erty|rar(?:i(?:an|es)|y))(?=[a-z])
 
 # WWNN/WWPN (NAA identifiers)
 \b(?:0x)?10[0-9a-f]{14}\b|\b(?:0x|3)?[25][0-9a-f]{15}\b|\b(?:0x|3)?6[0-9a-f]{31}\b
