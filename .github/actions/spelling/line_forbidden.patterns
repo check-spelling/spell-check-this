@@ -119,6 +119,9 @@
 # Should be `load balancer`
 \b[Ll]oud balancer
 
+# Should be `moot`
+\bmute point\b
+
 # Should be `one of`
 \bon of\b
 
