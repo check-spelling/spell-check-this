@@ -580,6 +580,8 @@ PrependWithABINamepsace
 (?:^|[\s=;:?])[-a-zA-Z=;:/0-9+]{50,}(?:[\s=;:?]|$)
 # base64 encoded json
 \beyJ[-a-zA-Z=;:/0-9+]+
+# base64 encoded pkcs
+\bMII[-a-zA-Z=;:/0-9+]+
 
 # encoded-word
 =\?[-a-zA-Z0-9"*%]+\?[BQ]\?[^?]{0,75}\?=
