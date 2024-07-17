@@ -123,7 +123,7 @@
 \bmute point\b
 
 # Should be `one of`
-\bon of\b
+(?<!-)\bon of\b
 
 # Should be `otherwise`
 \bother[- ]wise\b
