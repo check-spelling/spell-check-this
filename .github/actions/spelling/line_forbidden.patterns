@@ -128,6 +128,9 @@
 # Should be `on the other hand`
 \b(?i)on another hand\b
 
+# Most people only have two hands. Reword.
+\b(?i)on the third hand\b
+
 # Should be `otherwise`
 \bother[- ]wise\b
 
