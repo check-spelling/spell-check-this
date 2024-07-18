@@ -188,6 +188,9 @@
 # Should be `URI` or `uri` unless it refers to a person named `Uri`
 (?<!\.)\bUri\b(?![(])
 
+# should be `vCenter`
+\bV[Cc]enter\b
+
 # Should be `VM`
 \bVm\b
 
