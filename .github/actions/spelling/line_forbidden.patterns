@@ -107,6 +107,9 @@
 # Should be `log in`
 \blogin to the
 
+# Should probably be a person named `Nick` or the abbreviation `NIC`
+\bNic\b
+
 # Should be `perform its`
 \bperform it's\b
 
