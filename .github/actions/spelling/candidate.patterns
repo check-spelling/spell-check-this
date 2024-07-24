@@ -423,6 +423,9 @@ sha\d+:[0-9]*[a-f]{3,}[0-9a-f]*
 # pki
 -----BEGIN.*-----END
 
+# pki (base64)
+LS0tLS1CRUdJT.*
+
 # uuid:
 \b[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\b
 # hex digits including css/html color classes:
