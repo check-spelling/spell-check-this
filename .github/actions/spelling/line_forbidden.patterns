@@ -21,6 +21,9 @@
 # Should probably be `YYYYMMDD`
 \b[Yy]{4}[Dd]{2}[Mm]{2}(?!.*[Yy]{4}[Dd]{2}[Mm]{2}).*$
 
+# Should be `a priori` or `and prior`
+(?i)(?<!posteriori)\sand priori\s
+
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:an?|the)\s+){2,}\b
 
