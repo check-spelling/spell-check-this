@@ -464,6 +464,12 @@ Name\[[^\]]+\]=.*
 # scala modules
 ("[^"]+"\s*%%?\s*){2,3}"[^"]+"
 
+# Docker images
+^\s*FROM\s+\S+:\S+(?:\s+AS\s+\S+|)
+
+# `docker images` REPOSITORY TAG IMAGE ID CREATED SIZE
+\s*\S+/\S+\s+\S+\s+[0-9a-f]{8,}\s+\d+\s+(?:hour|day|week)s ago\s+[\d.]+[KMGT]B
+
 # Intel intrinsics
 _mm_\w+
 
