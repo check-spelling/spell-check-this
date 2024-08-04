@@ -8,7 +8,7 @@
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)Pipfile$
 (?:^|/)pyproject.toml
-(?:^|/)requirements(?:-dev|-doc|-test|)\.txt$
+(?:^|/|\b)requirements(?:-dev|-doc|-test|)\.txt$
 (?:^|/)vendor/
 ignore$
 \.a$
