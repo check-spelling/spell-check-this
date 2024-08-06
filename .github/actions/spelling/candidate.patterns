@@ -486,7 +486,7 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 # you'll want to remove the `(?=.*?")` suffix.
 # The `(?=.*?")` suffix should limit the false positives rate
 # printf
-%(?:(?:(?:hh?|ll?|[jzt])?[diuoxn]|l?[cs]|L?[fega]|p)(?=[a-z]{2,})|(?:X|L?[FEGA]|p)(?=[a-zA-Z]{2,}))(?!%)(?=[_a-zA-Z]+(?!%)\b)(?=.*?['"])
+%(?:(?:(?:hh?|ll?|[jzt])?[diuoxn]|l?[cs]|L?[fega]|p)(?=[a-z]{2,})|(?:X|L?[FEGA])(?=[a-zA-Z]{2,}))(?!%)(?=[_a-zA-Z]+(?!%)\b)(?=.*?['"])
 
 # Alternative printf
 # %s
