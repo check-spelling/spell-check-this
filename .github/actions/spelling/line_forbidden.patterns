@@ -84,6 +84,9 @@
 # Should be `greater than`
 \bgreater then\b
 
+# Should be `has`
+\b[Ii]t only have\b
+
 # Should be `ID`
 \bId\b
 
