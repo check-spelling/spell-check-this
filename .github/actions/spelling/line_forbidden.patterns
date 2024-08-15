@@ -116,6 +116,9 @@
 # Should probably be a person named `Nick` or the abbreviation `NIC`
 \bNic\b
 
+# Should probably be `much more`
+\bmore much\b
+
 # Should be `perform its`
 \bperform it's\b
 
