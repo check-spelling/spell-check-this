@@ -601,6 +601,9 @@ PrependWithABINamepsace
 # encoded-word
 =\?[-a-zA-Z0-9"*%]+\?[BQ]\?[^?]{0,75}\?=
 
+# numerator
+\bnumer\b(?=.*denom)
+
 # Time Zones
 \b(?:Africa|Atlantic|America|Antarctica|Asia|Australia|Europe|Indian|Pacific)(?:/\w+)+
 
