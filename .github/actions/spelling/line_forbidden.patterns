@@ -116,6 +116,9 @@
 # Should be `log in`
 \blogin to the
 
+# Should be `long-standing`
+\blong standing\b
+
 # Should probably be a person named `Nick` or the abbreviation `NIC`
 \bNic\b
 
