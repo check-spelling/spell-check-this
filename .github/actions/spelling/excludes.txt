@@ -17,11 +17,10 @@ ignore$
 \.avi$
 \.bmp$
 \.bz2$
-\.cer$
+\.cert?$|\.crt$
 \.class$
 \.coveragerc$
 \.crl$
-\.crt$
 \.csr$
 \.dll$
 \.docx?$
