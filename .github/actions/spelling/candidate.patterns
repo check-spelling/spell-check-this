@@ -455,6 +455,9 @@ Name\[[^\]]+\]=.*
 # apache/old crypt
 (['"]|)\$+(?:apr|)1\$+.{8}\$+.{22}\g{-1}
 
+# sha1 hash
+\{SHA\}[-a-zA-Z=;:/0-9+]{3,}
+
 # machine learning (?)
 \b(?i)ml(?=[a-z]{2,})
 
