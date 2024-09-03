@@ -452,6 +452,9 @@ Name\[[^\]]+\]=.*
 # crypt
 (['"])\$2[ayb]\$.{56}\g{-1}
 
+# apache/old crypt
+(['"]|)\$+(?:apr|)1\$+.{8}\$+.{22}\g{-1}
+
 # machine learning (?)
 \b(?i)ml(?=[a-z]{2,})
 
