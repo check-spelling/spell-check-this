@@ -665,6 +665,9 @@ a2(?:en|dis)
 # weak e-tag
 W/"[^"]+"
 
+# authors/credits
+^\*(?: [A-Z](?:\w+|\.)){2,} (?=\[|$)
+
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
 \\(?:necessary|r(?:elease|eport|esolve[dr]?|esult)|t(?:arget|emplates?))(?![a-z])
