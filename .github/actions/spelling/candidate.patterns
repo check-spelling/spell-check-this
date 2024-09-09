@@ -496,7 +496,7 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 
 # Alternative printf
 # %s
-%(?:s(?=[a-z]{2,}))(?!%)(?=[_a-zA-Z]+(?!%)\b)(?=.*?['"])
+%(?:s(?=[a-z]{2,}))(?!%)(?=[_a-zA-Z]+(?!%[^s])\b)(?=.*?['"])
 
 # Python string prefix / binary prefix
 # Note that there's a high false positive rate, remove the `?=` and search for the regex to see if the matches seem like reasonable strings
