@@ -203,6 +203,9 @@
 # Should be `URI` or `uri` unless it refers to a person named `Uri`
 (?<!\.)\bUri\b(?![(])
 
+# Should be `it uses is`
+/\bis uses is\b/
+
 # Should be `where`
 \bwere they are\b
 
