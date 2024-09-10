@@ -206,6 +206,9 @@
 # Should be `it uses is`
 /\bis uses is\b/
 
+# Should be `uses it as`
+(?:^|\. |and )uses is as (?!an?\b|follows|livestock|[^.]+\s+as\b)
+
 # Should be `where`
 \bwere they are\b
 
