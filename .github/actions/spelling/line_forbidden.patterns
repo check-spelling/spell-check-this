@@ -46,10 +46,10 @@
 \b[Cc]an not\b
 
 # Should be `GitHub`
-(?<![&*.]|// |\btype )\bGithub\b(?![{)])
+(?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
 # Should be `GitLab`
-(?<![&*.]|// |\btype )\bGitlab\b(?![{)])
+(?<![&*.]|// |\b(?:from|import|type) )\bGitlab\b(?![{()])
 
 # Should be `JavaScript`
 \bJavascript\b
