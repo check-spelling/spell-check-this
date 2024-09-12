@@ -129,7 +129,7 @@
 \bperform it's\b
 
 # Should be `opt-in`
-(?<!\sfor)\sopt in\s
+(?<!\sfor)(?<!\sif)\sopt in\s
 
 # Should be `less than`
 \bless then\b
