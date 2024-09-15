@@ -476,6 +476,9 @@ Name\[[^\]]+\]=.*
 # scala modules
 ("[^"]+"\s*%%?\s*){2,3}"[^"]+"
 
+# container images
+image: [-\w./:@]+
+
 # Docker images
 ^\s*FROM\s+\S+:\S+(?:\s+AS\s+\S+|)
 
