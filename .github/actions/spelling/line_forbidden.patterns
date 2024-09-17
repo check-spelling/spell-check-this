@@ -234,7 +234,7 @@
 \b(?:coarse|fine) grained\b
 
 # Should be `neither/nor` -- or reword
-\bnot\b[^.?!"/(]+\bnor\b
+(?!<do )\bnot\b([^.?!"/(](?!neither|,.*?,))+\bnor\b
 
 # Should be `neither/nor` (plus rewording the beginning)
 # This is probably a double negative...
