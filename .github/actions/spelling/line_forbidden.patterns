@@ -188,6 +188,9 @@
 # Should be `prepopulate`
 [Pp]re[- ]populate
 
+# Should be `prerequisite`
+[Pp]re[- ]requisite
+
 # Should be `recently changed` or `recent changes`
 [Rr]ecent changed
 
