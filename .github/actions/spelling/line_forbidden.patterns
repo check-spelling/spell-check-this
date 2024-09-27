@@ -36,6 +36,9 @@
 # Should be `briefcase`
 \bbrief-case\b
 
+# Should be `can, not only ..., ... also...`
+\bcan not only.*can also\b
+
 # Should be `cannot` (or `can't`)
 # See https://www.grammarly.com/blog/cannot-or-can-not/
 # > Don't use `can not` when you mean `cannot`. The only time you're likely to see `can not` written as separate words is when the word `can` happens to precede some other phrase that happens to start with `not`.
