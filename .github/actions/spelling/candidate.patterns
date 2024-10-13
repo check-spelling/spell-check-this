@@ -641,9 +641,6 @@ systemd.*?running in system mode \([-+].*\)$
 # This corpus only had capital letters, but you probably want lowercase ones as well.
 \b[LN]'+[a-z]{2,}\b
 
-# latex (check-spelling <= 0.0.21)
-\\(?:n(?:ew|ormal|osub)|r(?:enew)|t(?:able(?:of|)|he|itle))(?=[a-z]+)
-
 # latex (check-spelling >= 0.0.22)
 \\\w{2,}\{
 
