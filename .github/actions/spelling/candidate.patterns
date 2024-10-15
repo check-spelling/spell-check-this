@@ -567,6 +567,9 @@ urn:shemas-jetbrains-com
 # kubernetes object suffix
 -[0-9a-f]{10}-\w{5}\s
 
+# kubernetes crd patterns
+^\s*pattern: .*$
+
 # posthog secrets
 ([`'"])phc_[^"',]+\g{-1}
 
