@@ -403,7 +403,7 @@ ipfs://[0-9a-zA-Z]{3,}
 # Punycode
 \bxn--[-0-9a-z]+
 # sha
-sha\d+:[0-9]*[a-f]{3,}[0-9a-f]*
+sha\d+:[0-9a-f]*?[a-f]{3,}[0-9a-f]*
 # sha-... -- uses a fancy capture
 (\\?['"]|&quot;)[0-9a-f]{40,}\g{-1}
 # hex runs
