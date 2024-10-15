@@ -653,6 +653,9 @@ TeX/AMS
 # eslint
 "varsIgnorePattern": ".+"
 
+# nolint
+nolint:\w+
+
 # Windows short paths
 [/\\][^/\\]{5,6}~\d{1,2}[/\\]
 
