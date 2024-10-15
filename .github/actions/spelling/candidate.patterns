@@ -671,6 +671,9 @@ nolint:\w+
 # alternate printf markers if you run into latex and friends
 (?<!\\)\\[nrt](?=[a-z]{2,})(?=.*['"`])
 
+# Markdown anchor links
+\(#\S*?[a-zA-Z]\S*?\)
+
 # apache
 a2(?:en|dis)
 
