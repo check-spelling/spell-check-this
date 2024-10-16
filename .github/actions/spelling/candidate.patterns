@@ -557,6 +557,9 @@ go install(?:\s+[a-z]+\.[-@\w/.]+)+
 # jetbrains schema https://youtrack.jetbrains.com/issue/RSRP-489571
 urn:shemas-jetbrains-com
 
+# Debian changelog severity
+[-\w]+ \(.*\) (?:\w+|baseline|unstable|experimental); urgency=(?:low|medium|high|emergency|critical)\b
+
 # kubernetes pod status lists
 # https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase
 \w+(?:-\w+)+\s+\d+/\d+\s+(?:Running|Pending|Succeeded|Failed|Unknown)\s+
