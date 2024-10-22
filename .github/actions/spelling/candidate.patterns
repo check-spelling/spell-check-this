@@ -666,7 +666,7 @@ TeX/AMS
 nolint:\w+
 
 # Windows short paths
-[/\\][^/\\]{5,6}~\d{1,2}[/\\]
+[/\\][^/\\]{5,6}~\d{1,2}(?=[/\\])
 
 # cygwin paths
 /cygdrive/[a-zA-Z]/(?:Program Files(?: \(.*?\)| ?)(?:/[-+.~\\/()\w ]+)*|[-+.~\\/()\w])+
