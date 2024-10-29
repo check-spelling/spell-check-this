@@ -641,6 +641,9 @@ PrependWithABINamepsace
 # base64 encoded pkcs
 \bMII[-a-zA-Z=;:/0-9+]+
 
+# DNS rr data
+(?:\d+\s+){3}(?:[-+/=.\w]{2,}\s*){1,2}
+
 # encoded-word
 =\?[-a-zA-Z0-9"*%]+\?[BQ]\?[^?]{0,75}\?=
 
