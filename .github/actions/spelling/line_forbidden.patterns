@@ -48,6 +48,9 @@
 # - if you encounter such a case, add a pattern for that case to patterns.txt.
 \b[Cc]an not\b(?! only\b)
 
+# Should be `equals` to `is equal to`
+\bequals to\b
+
 # Should be `GitHub`
 (?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
