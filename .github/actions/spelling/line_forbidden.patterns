@@ -48,6 +48,14 @@
 # - if you encounter such a case, add a pattern for that case to patterns.txt.
 \b[Cc]an not\b(?! only\b)
 
+# Do not use `(click) here` links
+# For more information, see:
+# * https://www.w3.org/QA/Tips/noClickHere
+# * https://webaim.org/techniques/hypertext/link_text
+# * https://granicus.com/blog/why-click-here-links-are-bad/
+# * https://heyoka.medium.com/dont-use-click-here-f32f445d1021
+(?i)(?:>|\[)(?:(?:click |)here|link|(?:read |)more)(?:</|\]\()
+
 # Should be `equals` to `is equal to`
 \bequals to\b
 
