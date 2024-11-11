@@ -250,6 +250,9 @@
 # Should be `worst`
 (?i)worse-case
 
+# Should be `you are not` or reworded
+\byour not\b
+
 # Should be `(coarse|fine)-grained`
 \b(?:coarse|fine) grained\b
 
