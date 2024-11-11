@@ -65,6 +65,10 @@
 # Should be `GitLab`
 (?<![&*.]|// |\b(?:from|import|type) )\bGitlab\b(?![{()])
 
+# Should probably be `https://`...
+# Markdown generally doesn't assume that links are to urls
+\]\(www\.\w
+
 # Should be `JavaScript`
 \bJavascript\b
 
