@@ -236,6 +236,9 @@
 # Should be `uses it as`
 (?:^|\. |and )uses is as (?!an?\b|follows|livestock|[^.]+\s+as\b)
 
+# Should be `was`
+\bhas been(?= removed in v?\d)
+
 # Should be `where`
 \bwere they are\b
 
