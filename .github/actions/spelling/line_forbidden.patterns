@@ -251,6 +251,9 @@
 # Should be `VM`
 \bVm\b
 
+# Should be `we'll`
+\bwe 'll\b
+
 # Should be `workarounds`
 \bwork[- ]arounds\b
 
