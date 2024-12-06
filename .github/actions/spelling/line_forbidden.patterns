@@ -125,6 +125,9 @@
 # Should be `use`
 \sin used by\b
 
+# Should be `in-flight` or `on the fly` (unless actually talking about airline flights)
+\bon[- ]flight\b(?!=\s+(?:(?:\w{2}|)\d+|availability|booking|computer|data|delay|departure|management|performance|radar|reservation|scheduling|software|status|ticket|time|type|.*(?:hotel|taxi)))
+
 # Should be `is obsolete`
 \bis obsolescent\b
 
