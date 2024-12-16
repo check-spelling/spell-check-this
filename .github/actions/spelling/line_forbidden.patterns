@@ -33,6 +33,9 @@
 # Should be `'`
 (?i)\b(?:(?:i|s?he|they|what|who|you)[`"]ll|(?:are|ca|did|do|does|ha[ds]|have|is|should|were|wo|would)n[`"]t|(?:s?he|let|that|there|what|where|who)[`"]s|(?:i|they|we|what|who|you)[`"]ve)\b
 
+# Should be `background` / `intro text` / `introduction` / `prologue` unless it's a brand or relates to _subterfuge_
+(?i)\bpretext\b
+
 # Should be `briefcase`
 \bbrief-case\b
 
