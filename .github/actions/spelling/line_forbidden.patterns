@@ -233,6 +233,9 @@
 # Should be `strong suit`
 \b(?:my|his|her|their) strong suite\b
 
+# Should be `there are` or `they are` (or `they're`)
+(?i)\btheir are\b
+
 # Should be `understand`
 \bunder stand\b
 
