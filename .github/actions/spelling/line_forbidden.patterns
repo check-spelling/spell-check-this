@@ -146,6 +146,19 @@
 # Should be `long-standing`
 \blong standing\b
 
+# `apt-key` is deprecated
+# ... instead you should be writing a pair of files:
+# ... * the gpg key added to a distinct key ring file based on your project/distro/key...
+# ... * the sources.list in a district file -- not simply appended to `/etc/apt/sources.list` -- (there is a newer format [DEB822](https://manpages.debian.org/bookworm/dpkg-dev/deb822.5.en.html)) that references the gpg key.
+# Consider:
+# ````sh
+# curl http://download.something.example.com/$DISTRO/Release.key | \
+#     gpg --dearmor --yes --output /usr/share/keyrings/something-distro.gpg
+# echo "deb [signed-by=/usr/share/keyrings/something-distro.gpg] http://download.something.example.com/repositories/home:/$DISTRO ./" \
+#     >> /etc/apt/sources.list.d/something-distro.list
+# ````
+\bapt-key add\b
+
 # Should probably be a person named `Nick` or the abbreviation `NIC`
 \bNic\b
 
