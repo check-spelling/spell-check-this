@@ -195,6 +195,9 @@
 # Most people only have two hands. Reword.
 \b(?i)on the third hand\b
 
+# Should be `OpenShift`
+\bOpenshift\b
+
 # Should be `otherwise`
 \bother[- ]wise\b
 
