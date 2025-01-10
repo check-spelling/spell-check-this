@@ -213,6 +213,9 @@
 # Should be `no longer needed`
 \bno more needed\b(?! than\b)
 
+# Should be `<see|look> below for the`
+(?i)\bfind below the\b
+
 # Should be `then any` unless there's a comparison before the `,`
 , than any\b
 
