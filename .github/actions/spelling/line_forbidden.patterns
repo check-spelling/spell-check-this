@@ -114,8 +114,8 @@
 # Should be `greater than`
 \bhigher than\b(?! ever)
 
-# Should be `ID`
-\bId\b
+# Should be `ID` (unless it's a flag/property/RCS variable)
+(?<![-\.*$])\bId\b(?![(=:])
 
 # Should be `in front of`
 \bin from of\b
@@ -267,8 +267,8 @@
 # Should be `understand`
 \bunder stand\b
 
-# Should be `URI` or `uri` unless it refers to a person named `Uri`
-(?<!\.)\bUri\b(?![(])
+# Should be `URI` or `uri` unless it refers to a person named `Uri` (or a flag)
+(?<![-\.])\bUri\b(?![(])
 
 # Should be `it uses is`
 /\bis uses is\b/
