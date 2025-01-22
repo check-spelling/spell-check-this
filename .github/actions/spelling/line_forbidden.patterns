@@ -51,6 +51,9 @@
 # - if you encounter such a case, add a pattern for that case to patterns.txt.
 \b[Cc]an not\b(?! only\b)
 
+# Should be `chart`
+(?i)\bhelm\b.*\bchard\b
+
 # Do not use `(click) here` links
 # For more information, see:
 # * https://www.w3.org/QA/Tips/noClickHere
