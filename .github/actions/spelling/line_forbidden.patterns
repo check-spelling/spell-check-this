@@ -291,6 +291,9 @@
 # Should be `VM`
 \bVm\b
 
+# Should be `walkthrough(s)`
+\bwalk-throughs?\b
+
 # Should be `we'll`
 \bwe 'll\b
 
