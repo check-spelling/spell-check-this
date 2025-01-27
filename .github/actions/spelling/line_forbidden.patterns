@@ -94,7 +94,7 @@
 \bTypescript\b
 
 # Should be `another`
-\ban[- ]other\b
+\ban[- ]other(?!-)\b
 
 # Should be `case-(in)sensitive`
 \bcase (?:in|)sensitive\b
