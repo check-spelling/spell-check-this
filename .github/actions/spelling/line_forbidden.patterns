@@ -198,6 +198,11 @@
 # Should be `on the other hand`
 \b(?i)on another hand\b
 
+# Reword to `on at runtime` or `enabled at launch`
+# The former if you mean it can be changed dynamically.
+# The latter if you mean that it can be changed without recompiling but not after the program starts.
+\bswitched on runtime\b
+
 # Most people only have two hands. Reword.
 \b(?i)on the third hand\b
 
