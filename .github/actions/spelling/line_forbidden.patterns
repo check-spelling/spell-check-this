@@ -93,6 +93,9 @@
 # Should be `RabbitMQ`
 \bRabbitmq\b
 
+# Should be `TensorFlow`
+\bTensorflow\b
+
 # Should be `TypeScript`
 \bTypescript\b
 
