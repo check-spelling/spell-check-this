@@ -8,6 +8,10 @@
 # you might not want to check in code where you skip all the other tests.
 #\bfit\(
 
+# English does not use a hyphen between adverbs and nouns
+# https://twitter.com/nyttypos/status/1894815686192685239
+(?:^|\s)[A-Z]?[a-z]+ly-(?=[a-z]{3,})(?:[.,?!]?\s|$)
+
 # Should be `HH:MM:SS`
 \bHH:SS:MM\b
 
