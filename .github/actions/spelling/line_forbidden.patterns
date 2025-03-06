@@ -185,6 +185,9 @@
 # ````
 \bapt-key add\b
 
+# Should be `nearby`
+\bnear by\b
+
 # Should probably be a person named `Nick` or the abbreviation `NIC`
 \bNic\b
 
