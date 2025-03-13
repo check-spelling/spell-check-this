@@ -89,6 +89,9 @@
 # Should be `ECMA` 262 (JavaScript)
 (?i)\bTS\/EMCA\b|\bEMCA(?: \d|\s*Script)|\bEMCA\b(?=.*\bTS\b)
 
+# Should be `ECMA` 340 (Near Field Communications)
+(?i)EMCA[- ]340
+
 # Should be `GitHub`
 (?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
