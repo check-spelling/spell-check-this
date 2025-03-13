@@ -86,6 +86,9 @@
 # Including "image of" or "picture of" in alt text is unnecessary.
 \balt=['"](?:an? |)(?:image|picture) of
 
+# Alt text should be short
+\balt=(?:'[^']{126,}'|"[^"]{126,}")
+
 # Should be `equals` to `is equal to`
 \bequals to\b
 
