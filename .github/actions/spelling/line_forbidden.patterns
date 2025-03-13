@@ -83,6 +83,9 @@
 # * https://heyoka.medium.com/dont-use-click-here-f32f445d1021
 (?i)(?:>|\[)(?:(?:click |)here|link|(?:read |)more)(?:</|\]\()
 
+# Including "image of" or "picture of" in alt text is unnecessary.
+\balt=['"](?:an? |)(?:image|picture) of
+
 # Should be `equals` to `is equal to`
 \bequals to\b
 
