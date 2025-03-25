@@ -51,6 +51,12 @@
 # Should be `Ask`
 (?:^|[.?]\s+)As\s+[A-Z][a-z]{2,}\s[^.?]*?(?:how|if|wh\w+)\b
 
+# Should be `at one fell swoop`
+# and only when talking about killing, not some other completion
+# Act 4 Scene 3, Macbeth
+# https://www.opensourceshakespeare.org/views/plays/play_view.php?WorkID=macbeth&Act=4&Scene=3&Scope=scene
+\bin one fell s[lw]?oop\b
+
 # Should be `'`
 (?i)\b(?:(?:i|s?he|they|what|who|you)[`"]ll|(?:are|ca|did|do|does|ha[ds]|have|is|should|were|wo|would)n[`"]t|(?:s?he|let|that|there|what|where|who)[`"]s|(?:i|they|we|what|who|you)[`"]ve)\b
 
