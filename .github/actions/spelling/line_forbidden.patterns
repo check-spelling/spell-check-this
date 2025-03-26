@@ -353,6 +353,9 @@
 # Should be `where`
 \bwere they are\b
 
+# Should be `why`
+, way(?= is [^.]*\?)
+
 # should be `vCenter`
 \bV[Cc]enter\b
 
