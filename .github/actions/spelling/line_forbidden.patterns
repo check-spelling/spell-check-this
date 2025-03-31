@@ -371,6 +371,9 @@
 # Should be `whereas`
 \bwhere as\b
 
+# Should be `WinGet`
+\bWinget\b
+
 # Should be `without` (unless `out` is a modifier of the next word)
 \bwith out\b(?!-)
 
