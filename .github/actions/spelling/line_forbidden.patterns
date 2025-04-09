@@ -278,6 +278,9 @@
 # Should be `SendGrid`
 \bSendgrid\b
 
+# Should be `state`
+\bsate(?=\b|[A-Z])|(?<=[a-z])Sate(?=\b|[A-Z])|(?<=[A-Z]{2})Sate(?=\b|[A-Z])
+
 # Should be `no longer needed`
 \bno more needed\b(?! than\b)
 
