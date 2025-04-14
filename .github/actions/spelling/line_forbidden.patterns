@@ -42,6 +42,9 @@
 # Should be `a priori` or `and prior`
 (?i)(?<!posteriori)\sand priori\s
 
+# Should be `a`
+\san (?=(?:[b-dfgjklpqtvwz]|h(?!onou?r|our|s[lv]|tml|ttp|ref)|n(?!ginx|grok|pm)|r(?!c)|s(?!s[ho]|vg))[a-z]|x(?!\b|[-\d]|ml))
+
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:a(?! (?:priori|posteriori))n?|the)\s+){2,}\b
 
