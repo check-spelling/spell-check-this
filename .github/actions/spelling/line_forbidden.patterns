@@ -338,6 +338,10 @@
 # Should be `reentrant`
 [Rr]e[- ]entrant
 
+# Should be `socioeconomic`
+# https://dictionary.cambridge.org/us/dictionary/english/socioeconomic
+socio-economic
+
 # Should be `strong suit`
 \b(?:my|his|her|their) strong suite\b
 
