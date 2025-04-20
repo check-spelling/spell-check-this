@@ -314,6 +314,9 @@
 # Should be `@brief` / `@details` / `@param` / `@return` / `@retval`
 (?:^\s*|(?:\*|//|/*)\s+`)[\\@](?:breif|(?:detail|detials)|(?:params(?!\.)|prama?)|ret(?:uns?)|retvl)\b
 
+# Should be `more than` or `more, then`
+\bmore then\b
+
 # Should be `preexisting`
 [Pp]re[- ]existing
 
