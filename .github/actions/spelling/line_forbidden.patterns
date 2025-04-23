@@ -317,6 +317,9 @@
 # Should be `more than` or `more, then`
 \bmore then\b
 
+# Should be `Pipeline`/`pipeline`
+(?:(?<=\b|[A-Z])p|P)ipeLine(?:\b|(?=[A-Z]))
+
 # Should be `preexisting`
 [Pp]re[- ]existing
 
