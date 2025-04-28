@@ -116,6 +116,9 @@
 # Should be `ECMA` 340 (Near Field Communications)
 (?i)EMCA[- ]340
 
+# Should be `fall back`
+(?<!\b(?:a|the) |-)\bfallback(?= to)\b
+
 # Should be `GitHub`
 (?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
