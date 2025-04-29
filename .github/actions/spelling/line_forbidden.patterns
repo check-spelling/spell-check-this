@@ -72,6 +72,10 @@
 # Should be `background` / `intro text` / `introduction` / `prologue` unless it's a brand or relates to _subterfuge_
 (?i)\bpretext\b
 
+# Should be `branches`
+# ... unless it's really about the meal that replaces breakfast and lunch.
+\b[Bb]runches\b
+
 # Should be `briefcase`
 \bbrief-case\b
 
