@@ -284,6 +284,10 @@
 # Should be `otherwise`
 \bother[- ]wise\b
 
+# Should be `; otherwise` or `. Otherwise`
+# https://study.com/learn/lesson/otherwise-in-a-sentence.html
+, [Oo]therwise\b
+
 # Should be `or (more|less)`
 \bore (?:more|less)\b
 
