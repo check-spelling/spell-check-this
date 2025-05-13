@@ -126,6 +126,9 @@
 # Should be `fall back`
 (?<!\b(?:a|the) |-)\bfallback(?= to)\b
 
+# Should be `for`, `for, to` or `to`
+\b(?:for to|(?<!\bup |-)to for)\b
+
 # Should be `GitHub`
 (?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
