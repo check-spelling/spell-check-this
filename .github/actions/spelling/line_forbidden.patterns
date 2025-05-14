@@ -54,6 +54,9 @@
 # Should probably be `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 (?i)(?!ABCDEFGHIJKLMNOPQRSTUVWXYZ)ABC[A-Z]{21}YZ
 
+# Should be `an`
+(?<!(?:\b[Ii]|git) )(?<![-.])(?<!\d\s?)\bam\b(?!/pm|[:")]| I\b)
+
 # Should be `anymore`
 \bany more[,.]
 
