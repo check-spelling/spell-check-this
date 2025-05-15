@@ -184,6 +184,9 @@
 # Should be `here-in`, `the`, `them`, `this`, `these` or reworded in some other way
 \bthe here(?:\.|,| (?!and|defined))
 
+# Should be `going to bed` or `going to a bad`
+\bgoing to bad(?!-)\b
+
 # Should be `greater than`
 \bhigher than\b(?! ever)
 
