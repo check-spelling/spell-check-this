@@ -228,6 +228,9 @@
 # Should be `long-standing`
 \blong standing\b
 
+# Should be `lose`
+(?<=\bwill )loose\b
+
 # `apt-key` is deprecated
 # ... instead you should be writing a pair of files:
 # ... * the gpg key added to a distinct key ring file based on your project/distro/key...
