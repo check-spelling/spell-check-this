@@ -433,6 +433,9 @@ socio-economic
 # Should be `walkthrough(s)`
 \bwalk-throughs?\b
 
+# Should be `want`
+(?<=\bdon't )ant\b
+
 # Should be `we'll`
 \bwe 'll\b
 
