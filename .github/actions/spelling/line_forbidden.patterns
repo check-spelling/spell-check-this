@@ -27,6 +27,9 @@
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:a(?! (?:priori|posteriori))n?|the)\s+){2,}\b
 
+# Should probably be `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+(?i)(?!ABCDEFGHIJKLMNOPQRSTUVWXYZ)ABC[A-Z]{21}YZ
+
 # Should be `anymore`
 \bany more[,.]
 
