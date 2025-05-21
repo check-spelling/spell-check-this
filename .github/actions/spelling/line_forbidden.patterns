@@ -312,6 +312,12 @@
 # Should be `or (more|less)`
 \bore (?:more|less)\b
 
+# Should be reworded.
+# `passthrough` is an adjective
+# `pass-through` could be a noun
+# `pass through` would be a verb phrase
+\b(?i)passthrough(?= an?\b)
+
 # Should be `rather than`
 \brather then\b
 
