@@ -312,6 +312,9 @@
 # Should be `or (more|less)`
 \bore (?:more|less)\b
 
+# Should be `or`
+\b(?i)true of .*false\b
+
 # Should be reworded.
 # `passthrough` is an adjective
 # `pass-through` could be a noun
