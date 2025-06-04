@@ -138,6 +138,9 @@
 # Should be `GitLab`
 (?<![&*.]|// |\b(?:from|import|type) )\bGitlab\b(?![{()])
 
+# Should be `heartrending` unless talking about drawing hearts
+\b(?i)heart[- ]rendering\b(?![^.?!]*(?:hearts|quirk))
+
 # Should probably be `https://`...
 # Markdown generally doesn't assume that links are to urls
 \]\(www\.\w
