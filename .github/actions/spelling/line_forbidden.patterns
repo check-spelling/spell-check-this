@@ -88,6 +88,11 @@
 # Should be `by far` or `far and away`
 \bby far and away\b
 
+# Should be `bytes`
+# unless talking about sports where a team gets to skip a game, or
+# saying `goodbyes` (even this is questionable)
+(?<!\\)\bbyes\b
+
 # Should be `can, not only ..., ... also...`
 \bcan not only.*can also\b
 
