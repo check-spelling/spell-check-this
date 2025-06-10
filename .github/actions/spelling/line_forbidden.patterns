@@ -230,6 +230,9 @@
 # Should be `for its` (possessive) or `because it is`
 \bfor it(?:'s| is)\b
 
+# Should be `lends`
+\bleads(?= credence)
+
 # Should be `log in`
 \blogin to the
 
