@@ -360,6 +360,9 @@
 # Should be `state`
 \bsate(?=\b|[A-Z])|(?<=[a-z])Sate(?=\b|[A-Z])|(?<=[A-Z]{2})Sate(?=\b|[A-Z])
 
+# Should be `let's` or `let us`
+\b[Ll]ets (?=throw\.)
+
 # Should be `no longer needed`
 \bno more needed\b(?! than\b)
 
