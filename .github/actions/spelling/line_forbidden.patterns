@@ -472,6 +472,10 @@ socio-economic
 # Should be `we'll`
 \bwe 'll\b
 
+# Should be `week`
+# unless you're really talking about people or pointers
+\bevery weak[.,?!]
+
 # Should be `whereas`
 \bwhere as\b
 
