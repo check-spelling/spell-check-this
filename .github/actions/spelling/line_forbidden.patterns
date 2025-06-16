@@ -92,6 +92,9 @@
 # Should be `by far` or `far and away`
 \bby far and away\b
 
+# Should be `by and large`
+\bby in large\b
+
 # Should be `bytes`
 # unless talking about sports where a team gets to skip a game, or
 # saying `goodbyes` (even this is questionable)
