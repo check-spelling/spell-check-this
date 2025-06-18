@@ -476,6 +476,9 @@ socio-economic
 # unless you're really talking about people or pointers
 \bevery weak[.,?!]
 
+# Should be `well`
+\b[Yy]ou(?:'re| are) doing good\b
+
 # Should be `whereas`
 \bwhere as\b
 
