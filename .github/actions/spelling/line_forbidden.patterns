@@ -129,6 +129,9 @@
 # Alt text should be short
 \balt=(?:'[^']{126,}'|"[^"]{126,}")
 
+# Should be `effect`
+(?<=\btake )affect\b
+
 # Should be `equals` to `is equal to`
 \bequals to\b
 
