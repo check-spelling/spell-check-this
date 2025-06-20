@@ -82,6 +82,10 @@
 # Should be `bearer`
 \b(?<=the )burden(?= of bad news\b)
 
+# Should be `bona`
+# unless talking about bones
+\bbone(?= fide\b)
+
 # Should be `branches`
 # ... unless it's really about the meal that replaces breakfast and lunch.
 \b[Bb]runches\b
