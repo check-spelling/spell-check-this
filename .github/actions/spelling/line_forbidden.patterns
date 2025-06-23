@@ -343,6 +343,9 @@
 # Should be `or`
 \b(?i)true of .*false\b
 
+# Should be `pale`
+\b(?<=beyond the )pail\b
+
 # Should be reworded.
 # `passthrough` is an adjective
 # `pass-through` could be a noun
