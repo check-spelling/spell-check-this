@@ -136,6 +136,9 @@
 # Should be `effect`
 (?<=\btake )affect\b
 
+# Should be `-endian`
+\b(?i)(?<=big|little) endian\b
+
 # Should be `equals` to `is equal to`
 \bequals to\b
 
