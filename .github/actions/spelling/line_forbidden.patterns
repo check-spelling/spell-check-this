@@ -293,6 +293,9 @@
 # Should be `opt-in`
 (?<!\scan|for)(?<!\smust)(?<!\sif)\sopt in\s
 
+# Should be `out-of-date` if acting as an adjective before a noun
+\bout of date(?= \w{3,}\b)
+
 # Should be `less than`
 \bless then\b
 
