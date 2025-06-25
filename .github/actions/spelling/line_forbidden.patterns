@@ -167,6 +167,9 @@
 # Markdown generally doesn't assume that links are to urls
 \]\(www\.\w
 
+# Should be `intents and purposes`
+(?<=[Ff]or all )intensive purposes\b
+
 # Should be `JavaScript`
 \bJavascript\b
 
