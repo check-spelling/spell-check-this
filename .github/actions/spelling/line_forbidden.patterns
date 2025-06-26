@@ -382,6 +382,9 @@
 # Should be `state`
 \bsate(?=\b|[A-Z])|(?<=[a-z])Sate(?=\b|[A-Z])|(?<=[A-Z]{2})Sate(?=\b|[A-Z])
 
+# Should be `this`
+\b[Tt]oday(?= morning\b)
+
 # Should be `let's` or `let us`
 \b[Ll]ets (?=throw\.)
 
