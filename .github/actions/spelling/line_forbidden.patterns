@@ -26,6 +26,10 @@
 # Complete sentences in parentheticals should not have a space before the period.
 \s\.\)(?!.*\}\})
 
+# This probably indicates Mojibake https://en.wikipedia.org/wiki/Mojibake
+# You probably should try to unbake this content
+Ã(?:Â[¤¶¥]|[£¢])|Ãƒ
+
 # Should be `HH:MM:SS`
 \bHH:SS:MM\b
 
