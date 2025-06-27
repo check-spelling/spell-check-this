@@ -433,6 +433,9 @@
 # Should be `prerequisite`
 [Pp]re[- ]requisite
 
+# Should be `QuickTime`
+\bQuicktime\b
+
 # Should be `recently changed` or `recent changes`
 [Rr]ecent changed
 
