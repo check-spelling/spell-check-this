@@ -12,6 +12,9 @@
 # https://twitter.com/nyttypos/status/1894815686192685239
 (?:^|\s)[A-Z]?[a-z]+ly-(?=[a-z]{3,})(?:[.,?!]?\s|$)
 
+# Smart quotes should match
+\s’[^.?!‘’]+’[^.?!‘’]+‘[^.?!‘’]+’|\s‘[^.?!‘’]+’[^.?!‘’]+’[^.?!‘’]+’|\s”[^.?!“”]+”[^.?!“”]+“[^.?!“”]+”|\s“[^.?!“”]+”[^.?!“”]+”[^.?!“”]+”
+
 # Don't use `requires that` + `to be`
 # https://twitter.com/nyttypos/status/1894816551435641027
 \brequires that \w+\b[^.]+to be\b
