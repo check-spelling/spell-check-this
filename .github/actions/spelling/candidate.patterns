@@ -760,7 +760,9 @@ W/"[^"]+"
 # Compiler flags (linker)
 ,-B
 
-# libraries
+# Library prefix
+# e.g., `lib`+`archive`, `lib`+`raw`, `lib`+`unwind`
+# (ignores some words that happen to start with `lib`)
 (?:\b|_)[Ll]ib(?:re(?=office)|)(?!era[lt]|ero|erty|rar(?:i(?:an|es)|y))(?=[a-z])
 
 # iSCSI iqn (approximate regex)
