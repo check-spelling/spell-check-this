@@ -468,6 +468,9 @@ socio-economic
 # Should be `there are` or `they are` (or `they're`)
 (?i)\btheir are\b
 
+# Should be `true`
+(?i)(?<![\[\]()])\brue(?:= or false)
+
 # Should be `understand`
 \bunder stand\b
 
