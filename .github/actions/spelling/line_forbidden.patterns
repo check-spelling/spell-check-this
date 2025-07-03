@@ -52,6 +52,12 @@
 # Should be `a`
 \san (?=(?:[b-dfgjklpqtvwz]|h(?!onou?r|our|s[lv]|tml|ttp|ref)|n(?!ginx|grok|pm)|r(?!c)|s(?!s[ho]|vg))[a-z]|x(?!\b|[-\d]|ml))
 
+# Articles generally shouldn't be used without a noun and a verb
+# - Perhaps you're missing a verb between the noun and the second article.
+# - Or, perhaps you should remove the first verb and treat the intervening word as a verb?
+# - In some cases you should add a `,` between the noun and the second article.
+\s(?:an?|the)\s(?!wh|(?:how|priori)\b)[A-Za-z][a-z]+[a-qs-z]\s(?:a(?! (?:bit|few|little|lot|posteriori))n?|the(?! same))\s
+
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:a(?! (?:priori|posteriori))n?|the)\s+){2,}\b
 
