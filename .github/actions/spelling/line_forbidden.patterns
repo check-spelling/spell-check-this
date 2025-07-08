@@ -153,6 +153,9 @@
 # Should be `effect`
 (?<=\btake )affect\b
 
+# Should be `end`
+(?<=\b[Ww]e )ends\b
+
 # Should be `-endian`
 \b(?i)(?<=big|little) endian\b
 
