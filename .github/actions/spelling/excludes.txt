@@ -10,6 +10,7 @@
 (?:^|/)pyproject.toml
 (?:^|/)vendor/
 (?:^|/|\b)requirements(?:-dev|-doc|-test|)\.txt$
+-lock\.yaml$
 \.a$
 \.ai$
 \.all-contributorsrc$
