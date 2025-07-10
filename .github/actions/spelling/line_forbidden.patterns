@@ -267,6 +267,9 @@
 # Should be `its`
 \bit's(?= (?:child|only purpose|own(?:er|)|parent|sibling)\b)
 
+# Should be `its`
+(?<!since )\bit's(?= data\b)
+
 # Should be `for its` (possessive) or `because it is`
 \bfor it(?:'s| is)\b
 
