@@ -328,6 +328,9 @@
 # Should be `load balancer`
 \b[Ll]oud balancer
 
+# Should be `I may be`, or `I, maybe`
+\bI maybe\b
+
 # Should be `moot`
 \bmute point\b
 
