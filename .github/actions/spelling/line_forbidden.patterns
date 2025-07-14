@@ -187,6 +187,10 @@
 # Markdown generally doesn't assume that links are to urls
 \]\(www\.\w
 
+# Should be `https://www.chiark.greenend.org.uk/~sgtatham/putty/`
+# See https://hachyderm.io/@simontatham/114846017785770922
+\bputty\.org\b
+
 # Should be `intents and purposes`
 (?<=[Ff]or all )intensive purposes\b
 
