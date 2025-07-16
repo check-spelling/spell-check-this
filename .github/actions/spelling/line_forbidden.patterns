@@ -550,6 +550,10 @@ socio-economic
 # Should be `well`
 \b[Yy]ou(?:'re| are) doing good\b
 
+# Should be `well`
+# unless there is a word after good and good is modifying it...
+\b(?<=[Dd]oing pretty )good(?! stuff\b)
+
 # Should be `whereas`
 \bwhere as\b
 
