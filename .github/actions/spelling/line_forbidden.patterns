@@ -495,6 +495,9 @@ socio-economic
 # Should be `there are` or `they are` (or `they're`)
 (?i)\btheir are\b
 
+# Should be `they have` or `have the` or ...
+\bthe (?:have(?! nots)|has)\b
+
 # Should be `too`
 (?<=\sit's )to(?= (?:big|large|small|tiny|important))
 
