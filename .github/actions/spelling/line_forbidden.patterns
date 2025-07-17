@@ -215,6 +215,9 @@
 # Should be `TypeScript`
 \bTypescript\b
 
+# Should be `also need to`
+\bneed to also\b
+
 # Should be `another`
 \ban[- ]other(?!-)\b
 
