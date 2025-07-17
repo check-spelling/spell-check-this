@@ -441,7 +441,10 @@
 \b[Nn]o[nt][- ]existent\b
 
 # Should be `only does`
-\bdoes only(?! seem)\b
+(?<![Ww]hy )\bdoes only(?! (?:seem|match))\b
+
+# Should be `only matches`
+\bdoes only match\b
 
 # Should be `only seems`
 \bdoes only seem\b
