@@ -422,6 +422,9 @@
 # unless the next concept is something that is being thrown
 (?i)\bbl[eo]w thr[eo]w(?! (?:him|her|me|them?|us)(?! in))\b
 
+# Should be `to use`
+\bto now use\b
+
 # Should be `let's` or `let us`
 \b[Ll]ets (?=throw\.)
 
