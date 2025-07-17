@@ -440,6 +440,9 @@
 # Should be `nonexistent`
 \b[Nn]o[nt][- ]existent\b
 
+# Should be `only does`
+\bdoes only(?! seem)\b
+
 # Should be `only seems`
 \bdoes only seem\b
 
