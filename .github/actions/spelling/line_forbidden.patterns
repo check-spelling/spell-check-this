@@ -15,6 +15,9 @@
 # Smart quotes should match
 \s’[^.?!‘’]+’[^.?!‘’]+‘[^.?!‘’]+’|\s‘[^.?!‘’]+’[^.?!‘’]+’[^.?!‘’]+’|\s”[^.?!“”]+”[^.?!“”]+“[^.?!“”]+”|\s“[^.?!“”]+”[^.?!“”]+”[^.?!“”]+”
 
+# Generally words are written with `'s`, not `"s`
+[^=|+']\s\w+"s\s
+
 # Don't use `requires that` + `to be`
 # https://twitter.com/nyttypos/status/1894816551435641027
 \brequires that \w+\b[^.]+to be\b
