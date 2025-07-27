@@ -558,6 +558,9 @@ socio-economic
 # Should be `VM`
 \bVm\b
 
+# Should be `void`
+(?<=\bnull and)avoid\b
+
 # Should be `way too`, `ways to`, or have some extra punctuation
 \sways too\s(?=\w)
 
