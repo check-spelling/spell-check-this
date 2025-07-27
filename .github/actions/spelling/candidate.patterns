@@ -428,7 +428,7 @@ sha\d+:[0-9a-f]*?[a-f]{3,}[0-9a-f]*
 # sha-... -- uses a fancy capture
 (\\?['"]|&quot;)[0-9a-f]{40,}\g{-1}
 # hex runs
-\b[0-9a-fA-F]{16,}\b
+\b(?=(?:[a-fA-F]{0,2}\d)*[a-fA-F]{3})[0-9a-fA-F]{16,}\b
 # hex in url queries
 =[0-9a-fA-F]*?(?:[A-F]{3,}|[a-f]{3,})[0-9a-fA-F]*?&
 # ssh
