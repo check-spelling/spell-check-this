@@ -120,6 +120,9 @@
 # Should be `briefcase`
 \bbrief-case\b
 
+# Should be `by`
+(?<=caused )from(?= an?\b)
+
 # Should be `by far` or `far and away`
 \bby far and away\b
 
