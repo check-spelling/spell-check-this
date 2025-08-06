@@ -337,6 +337,9 @@
 # Should be `perform its`
 \bperform it's\b
 
+# Should be `PowerPoint`
+\bPowerpoint\b
+
 # Should be `opt-in`
 (?<!\scan|for)(?<!\smust)(?<!\sif)\sopt in\s
 
