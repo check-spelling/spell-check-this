@@ -495,6 +495,9 @@
 # Should be `Pipeline`/`pipeline`
 (?:(?<=\b|[A-Z])p|P)ipeLine(?:\b|(?=[A-Z]))
 
+# Should be `please do not`/`you do not need`
+[Pp]lease do not need
+
 # Should be `preexisting`
 [Pp]re[- ]existing
 
