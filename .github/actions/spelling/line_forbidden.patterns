@@ -75,6 +75,9 @@
 # Should only be `are` or `can`, not both
 \b(?:(?:are|can)\s+){2,}\b
 
+# Should be `at` or possibly `in`
+\bon(?= the (?:top|bottom) (?:left|right) \w+)
+
 # Should probably be `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 (?i)(?!ABCDEFGHIJKLMNOPQRSTUVWXYZ)ABC[A-Z]{21}YZ
 
