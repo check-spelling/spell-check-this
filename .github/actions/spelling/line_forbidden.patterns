@@ -217,6 +217,9 @@
 # Should be `JavaScript`
 \bJavascript\b
 
+# Should be `Jira`
+\bJIRA\b(?!-\d+)
+
 # Should be `macOS` or `Mac OS X` or ...
 \bMacOS\b
 
