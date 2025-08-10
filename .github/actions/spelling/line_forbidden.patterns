@@ -615,6 +615,9 @@ socio-economic
 # unless there is a word after good and good is modifying it...
 \b(?<=[Dd]oing pretty )good(?! stuff\b)
 
+# Should be `WhatsApp`
+Whatsapp
+
 # Should be `whereas`
 \bwhere as\b
 
