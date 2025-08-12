@@ -36,6 +36,18 @@
 # Complete sentences in parentheticals should not have a space before the period.
 \s\.\)(?!.*\}\})
 
+# Write out small numbers (unless they are code)
+# See https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Writing%20Small%20and%20Large%20Numbers,ten%29%20are%20written%20as%20numerals%2e
+(?<![=>]|depth|frame|page|project|select)\s[1-9] (?!byte|day|hour|meaning|minute|month|(?:new |)page|people|(?:more |)space|year)[a-z]+ [a-z]+\s
+
+# Write out numbers at the start of a sentence
+# https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Beginning%20a%20Sentence%20with%20a%20Number,may%20be%2e
+(?:\b[a-z]{4,}|\s(?:[a-eg-z][a-z]{2}|f[a-hj-z][a-z]|fi[a-fh][a-z]))[:.?!] [1-9] [a-z]{3,} [a-z]+\s\w+
+
+# Don't write two numbers in a row
+# https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Paired%20Numbers%20%28Two%20Numbers%20in,librarian%20to%20begin%20story%20time%2e
+(?:[a-z]{4,}|\s(?!apr|aug|dec|feb|fri|jan|mar|mon|nov|oct|sat|sep|sun|thu|tue|wed)[a-z]{3})\s\d+\s\d+(?!--)[-\s](?:(?!--)[-A-Za-z]){2,}\s
+
 # This probably indicates Mojibake https://en.wikipedia.org/wiki/Mojibake
 # You probably should try to unbake this content
 Ã(?:Â[¤¶¥]|[£¢])|Ãƒ
