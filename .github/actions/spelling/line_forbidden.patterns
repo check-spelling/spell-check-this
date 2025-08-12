@@ -211,6 +211,10 @@
 # See https://hachyderm.io/@simontatham/114846017785770922
 \bputty\.org\b
 
+# Often should be `if`/`when` (or reworded)
+# unless describing exceptional cases (i.e. emergencies)
+(?<!just )\bin case\b(?! (?:I|s?he|they|of|we|you))
+
 # Should be `intents and purposes`
 (?<=[Ff]or all )intensive purposes\b
 
