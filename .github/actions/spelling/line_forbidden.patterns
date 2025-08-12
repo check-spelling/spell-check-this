@@ -537,6 +537,9 @@
 # Should be `room for`
 \brooms for (?!lease|rent|sale)
 
+# Reword
+\b(?i)same as for\b
+
 # Should be `socioeconomic`
 # https://dictionary.cambridge.org/us/dictionary/english/socioeconomic
 socio-economic
