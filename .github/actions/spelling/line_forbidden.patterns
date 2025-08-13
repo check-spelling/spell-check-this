@@ -263,6 +263,9 @@
 # Should be `case-(in)sensitive`
 \bcase (?:in|)sensitive\b
 
+# Should be `Cloud`
+CLoud
+
 # Should be `coinciding`
 \bco-inciding\b
 
