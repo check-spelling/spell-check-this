@@ -62,6 +62,9 @@
 # Assuming that the time is being passed to https://go.dev/src/time/format.go
 \b2006-02-01\b
 
+# Should probably have a trailing `.`
+\s([a-z]\.){2,}[a-z]\s(?=\w)
+
 # Should probably be `YYYYMMDD`
 \b[Yy]{4}[Dd]{2}[Mm]{2}(?!.*[Yy]{4}[Dd]{2}[Mm]{2}).*$
 
