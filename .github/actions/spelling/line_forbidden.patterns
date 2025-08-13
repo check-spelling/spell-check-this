@@ -344,6 +344,9 @@ CLoud
 # Should be `lose`
 (?<=\bwill )loose\b
 
+# Should be `OAuth`
+\bOauth\b
+
 # Should be `paste`
 (?<=and )past(?= it)
 
