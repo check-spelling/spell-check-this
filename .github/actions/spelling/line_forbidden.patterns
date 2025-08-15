@@ -251,6 +251,10 @@
 # Should be `OAuth`
 (?:^|[^-/*$])[ '"]oAuth(?: [a-z]|\d+ |[^ a-zA-Z0-9:;_.()])
 
+# Should be `pytest`
+# see https://docs.pytest.org/en/stable/
+\bPytest\b
+
 # Should be `RabbitMQ`
 \bRabbitmq\b
 
