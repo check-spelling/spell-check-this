@@ -54,7 +54,7 @@ name: Check Spelling
 #   spelling:
 #     # remove `security-events: write` and `use_sarif: 1`
 #     # remove `experimental_apply_changes_via_bot: 1`
-#     ... otherwise adjust the `with:` as you wish
+#     ... otherwise, adjust the `with:` as you wish
 
 # on.pull_request(_target).edited is only needed for with.check_commit_messages: title | description
 
