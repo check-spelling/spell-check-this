@@ -664,6 +664,10 @@ Whatsapp
 # Should be `whereas`
 \bwhere as\b
 
+# Should be `which`
+# unless you're talking about Halloween/D&D/wizards/broomsticks
+\bwitch\b
+
 # Should be `WinGet`
 \bWinget\b
 
