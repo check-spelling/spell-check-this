@@ -286,6 +286,9 @@ CLoud
 # Should be `deprecation warning(s)`
 \b[Dd]epreciation [Ww]arnings?\b
 
+# Should be `gets`
+\scommand get the\s
+
 # Should be `greater than`
 \bgreater then\b
 
