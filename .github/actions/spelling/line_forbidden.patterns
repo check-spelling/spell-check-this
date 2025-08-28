@@ -212,6 +212,10 @@
 # Should be `for`, `for, to` or `to`
 \b(?:for to|(?<!\bup |-)to for)\b
 
+# Should be `ghcr.io`
+# https://bmitch.net/blog/2025-08-22-ghrc-appears-malicious/
+\bghrc\.io\b
+
 # Should be `GitHub`
 (?<![&*.]|// |\b(?:from|import|type) )\bGithub\b(?![{()])
 
