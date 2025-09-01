@@ -170,6 +170,9 @@
 # Should be `chart`
 (?i)\bhelm\b.*\bchard\b
 
+# Should be `counter-intuitive`
+\bcounter intuitive\b
+
 # Do not use `(click) here` links
 # For more information, see:
 # * https://www.w3.org/QA/Tips/noClickHere
