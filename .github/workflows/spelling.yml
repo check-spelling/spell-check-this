@@ -114,7 +114,8 @@ jobs:
           dictionary_source_prefixes: >
             {
             "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230509/dictionaries/",
-            "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/"
+            "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/",
+            "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
             }
           check_extra_dictionaries: |
             cspell1:ada/ada.txt
@@ -181,6 +182,7 @@ jobs:
             cspell1:svelte/svelte.txt
             cspell1:swift/swift.txt
             cspell1:typescript/typescript.txt
+            census:census-5.txt
           extra_dictionaries: |
             cspell1:software-terms/softwareTerms.txt
 
