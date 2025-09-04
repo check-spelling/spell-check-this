@@ -204,6 +204,9 @@
 # Should be `end`
 (?<=\b[Ww]e )ends\b
 
+# Should be `ends`
+\bend's(?= up\b)
+
 # Should be `-endian`
 \b(?i)(?<=big|little) endian\b
 
