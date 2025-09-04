@@ -225,6 +225,9 @@
 # Should be `GitLab`
 (?<![&*.]|// |\b(?:from|import|type) )\bGitlab\b(?![{()])
 
+# Should be `GmbH`
+\bGmbh\b
+
 # Should be `heartrending` unless talking about drawing hearts
 \b(?i)heart[- ]rendering\b(?![^.?!]*(?:hearts|quirk))
 
