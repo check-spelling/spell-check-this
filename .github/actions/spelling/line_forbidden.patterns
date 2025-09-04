@@ -15,6 +15,9 @@
 # Smart quotes should match
 \s’[^.?!‘’]+’[^.?!‘’]+‘[^.?!‘’]+’|\s‘[^.?!‘’]+’[^.?!‘’]+’[^.?!‘’]+’|\s”[^.?!“”]+”[^.?!“”]+“[^.?!“”]+”|\s“[^.?!“”]+”[^.?!“”]+”[^.?!“”]+”
 
+# Don't write double negatives
+\w+n't not(?=\s)
+
 # Generally words are written with `'s`, not `"s`
 [^=|+']\s\w+"s\s
 
