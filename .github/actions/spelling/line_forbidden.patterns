@@ -421,7 +421,7 @@ CLoud
 \bout of date(?= \w{3,}\b)
 
 # Should be `less than`
-\bless then\b
+\bless then\b|\blesser than\b
 
 # Should be `load balancer`
 \b[Ll]oud balancer
