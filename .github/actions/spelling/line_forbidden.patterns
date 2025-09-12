@@ -222,6 +222,12 @@
 # Should be `ECMA` 340 (Near Field Communications)
 (?i)EMCA[- ]340
 
+# Should be `exceed`
+\bare higher than\b
+
+# Should be `exceeds`
+\bis higher than\b
+
 # Should be `fall back`
 (?<!\b(?:a|the) |-)\bfallback(?= to)\b
 
