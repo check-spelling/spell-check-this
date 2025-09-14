@@ -499,6 +499,9 @@ Name\[[^\]]+\]=.*
 # go.sum
 \bh1:\S+
 
+# golang print-f-style functions
+(?i)(?<=append|comma|debug|equal|err|error|exit|fatal|format|info|log|name|panic|print|skip|scan|string|trace|true|warn|warning|wrap|write)(?:f|ln)(?:[ (]|$)
+
 # imports
 ^import\s+(?:(?:static|type)\s+|)(?:[\w.]|\{\s*\w*?(?:,\s*(?:\w*|\*))+\s*\})+(?:\s+from (['"]).*?\g{-1}|)
 
