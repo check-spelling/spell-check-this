@@ -658,6 +658,9 @@ socio-economic
 # Should be `where`
 \bwere they are\b
 
+# Should be `whether or not ...`
+\bwhether(?:\s\w+)+ or not\.
+
 # Should be `why`
 , way(?= is [^.]*\?)
 
