@@ -336,6 +336,9 @@ CLoud
 # Should be `greater than`
 \bhigher than\b(?! ever)
 
+# Should be `Homebrew`
+\bHomeBrew\b
+
 # Should be `ID` (unless it's a flag/property/RCS variable)
 (?<![-\.*$])\bId\b(?![(=:])
 
