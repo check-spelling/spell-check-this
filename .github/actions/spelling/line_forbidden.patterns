@@ -72,6 +72,13 @@
 # Should probably have a trailing `.`
 \s([a-z]\.){2,}[a-z]\s(?=\w)
 
+# Should probably end with `”`
+# Likely bad OCR
+“.+[^'‘\\\[]+’'(?!['"])
+
+# Should probably end with `”` or with only one of `’`/`'`
+\s\w+[^'‘\\\[]+’'(?!['"])
+
 # Should probably be `YYYYMMDD`
 \b[Yy]{4}[Dd]{2}[Mm]{2}(?!.*[Yy]{4}[Dd]{2}[Mm]{2}).*$
 
