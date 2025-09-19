@@ -79,6 +79,10 @@
 # Should probably end with `”` or with only one of `’`/`'`
 \s\w+[^'‘\\\[]+’'(?!['"])
 
+# Should probably be matching (smart)quotes or backticks (if Markdown)
+# Unless the file format is TeX
+^[^`]+(?<!`)``(?!`)[^`]*?''
+
 # Should probably be `YYYYMMDD`
 \b[Yy]{4}[Dd]{2}[Mm]{2}(?!.*[Yy]{4}[Dd]{2}[Mm]{2}).*$
 
