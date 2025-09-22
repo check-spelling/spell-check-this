@@ -89,6 +89,9 @@
 # Should be `a bit of`
 (?<=\bquite )some(?= hands-on)
 
+# Should be `a few`
+(?<=\bquite )some(?= hands\s)
+
 # Should be `a priori` or `and prior`
 (?i)(?<!posteriori)\sand priori\s
 
