@@ -536,6 +536,9 @@ CLoud
 # Should be `state`
 \bsate(?=\b|[A-Z])|(?<=[a-z])Sate(?=\b|[A-Z])|(?<=[A-Z]{2})Sate(?=\b|[A-Z])
 
+# Should be `that`
+\b[Tt]hat's(?= would)
+
 # Should be `then` (or occasionally `that`)
 # Original GitHub query: "/ than the \w+ must/ NOT /(er|more|less|worse|different\w*)(?: \w+|)(,[^.?!]+,|) than the/"
 # RegEx engines don't tend to appreciate variable length negative bookbehind
