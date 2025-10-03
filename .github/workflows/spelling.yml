@@ -113,11 +113,15 @@ jobs:
           extra_dictionary_limit: 20
           dictionary_source_prefixes: >
             {
+            "asm": "https://raw.githubusercontent.com/check-spelling/assembly-dictionaries/20231110/",
             "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230509/dictionaries/",
             "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/",
             "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
             }
           check_extra_dictionaries: |
+            asm:amd64-isa.txt
+            asm:ia64-isa.txt
+            asm:power-isa.txt
             cspell1:ada/ada.txt
             cspell1:aws/aws.txt
             cspell1:clojure/clojure.txt
