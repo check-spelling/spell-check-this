@@ -620,6 +620,9 @@ CLoud
 # Should be `prerequisite`
 [Pp]re[- ]requisite
 
+# Should be `principal`
+[Pp]rinciple(?= [Ee]ngineer)
+
 # Should be `QuickTime`
 \bQuicktime\b
 
