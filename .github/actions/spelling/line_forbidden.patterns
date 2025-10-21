@@ -157,6 +157,9 @@
 # Should be `bearer`
 \b(?<=the )burden(?= of bad news\b)
 
+# Should be `beginning`
+\b(?<=from )begin(?= to end\b)
+
 # Should be `bona`
 # unless talking about bones
 \bbone(?= fide\b)
