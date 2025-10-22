@@ -737,6 +737,9 @@ would'nt
 # Should be `WhatsApp`
 Whatsapp
 
+# Should probably be `when`/`where` or reworded
+\bat the point\b
+
 # Should be `whereas`
 \bwhere as\b
 
