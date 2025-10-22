@@ -750,6 +750,9 @@ Whatsapp
 # Should be `without` (unless `out` is a modifier of the next word)
 \bwith out\b(?!-)
 
+# Should be `wondering`
+\bwandering(?= why)
+
 # Should be `work around`
 \b[Ww]orkaround(?= an?\b)
 
