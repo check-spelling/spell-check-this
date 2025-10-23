@@ -771,6 +771,9 @@ Whatsapp
 # Should be `you are not` or reworded
 \byour not\b
 
+# Should be `your`
+(?i)\byou're(?= time\b(?! traveling))
+
 # Should be `(coarse|fine)-grained`
 \b(?:coarse|fine) grained\b
 
