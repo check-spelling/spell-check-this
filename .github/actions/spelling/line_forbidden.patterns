@@ -341,6 +341,9 @@ CLoud
 # Should be `deprecation warning(s)`
 \b[Dd]epreciation [Ww]arnings?\b
 
+# Should be `disk space.`
+(?<=to save )disk\.(?![a-zA-Z])
+
 # Should be `gets`
 \scommand get the\s
 
