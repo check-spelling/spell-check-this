@@ -747,6 +747,9 @@ Whatsapp
 # unless you're talking about Halloween/D&D/wizards/broomsticks
 \bwitch\b
 
+# Should be _verb in infinitive form_
+(?<=\bwill )(?!(?:(?:un|)alias|bias|(?:b|sp|\b)ring|cities|(?:re|)focus|its|shed|sometimes|th[iu]s|[a-z]+s (?:be|of))\b)[a-z]+(?:[a-df-z]ed|ing|[a-rt-xz]s)\b
+
 # Should be `WinGet`
 \bWinget\b
 
