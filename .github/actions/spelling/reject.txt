@@ -3,6 +3,7 @@ aroynt.*
 bellows?
 benefitting
 occurences?
+.*dnt
 dependan.*
 developement
 developp?e
