@@ -221,6 +221,9 @@
 # Unless you have a non-default fallback, but that's just weird.
 \bdefault fallback\b
 
+# Should be `dress code`
+\bdressing code\b
+
 # Should be `effect`
 (?<=\btake )affect\b
 
