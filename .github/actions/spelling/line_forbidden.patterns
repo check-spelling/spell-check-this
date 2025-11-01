@@ -729,6 +729,9 @@ would'nt
 # Should be `we'll`
 \bwe 'll\b
 
+# Should be `Webex`
+\bWebEx\b
+
 # Should be `week`
 # unless you're really talking about people or pointers
 \bevery weak[.,?!]
