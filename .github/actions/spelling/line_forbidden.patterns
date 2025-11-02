@@ -412,6 +412,9 @@ CLoud
 # Should be `lends`
 \bleads(?= credence)
 
+# Should be `few times` or `little time`
+(?<=\bvery )few time\b
+
 # Should be `log in`
 \blogin to the
 
