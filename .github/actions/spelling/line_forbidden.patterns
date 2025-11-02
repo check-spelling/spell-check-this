@@ -398,6 +398,9 @@ CLoud
 (?<![.'])\bits['’]
 
 # Should be `its`
+(?<=\b(?:in|of) )it's\b
+
+# Should be `its`
 \bit's(?= (?:child|only purpose|own(?:er|)|parent|sibling)\b)
 
 # Should be `its`
