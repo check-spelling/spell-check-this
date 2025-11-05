@@ -200,6 +200,9 @@
 # Should be `chart`
 (?i)\bhelm\b.*\bchard\b
 
+# Should be `code`
+(?<=\bof )a code(?= that\b)
+
 # Should be `counter-intuitive`
 \bcounter intuitive\b
 
