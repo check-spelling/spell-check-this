@@ -19,7 +19,7 @@ Copyright (?:\([Cc]\)|©|)(?:[-\d, ]|and)+(?: [A-Z][a-z]+ [A-Z][a-z]+,?)+
 index (?:[0-9a-z]{7,40},|)[0-9a-z]{7,40}\.\.[0-9a-z]{7,40}
 
 # file permissions
-['"`\s][-bcdLlpsw](?:[-r][-w][-Ssx]){2}[-r][-w][-SsTtx]\+?['"`\s]
+(?:^|['"`\s])(?!-+\s)[-bcdLlpsw](?:[-r][-w][-Ssx]){2}[-r][-w][-SsTtx]\+?['"`\s]
 
 # css fonts
 \bfont(?:-family(?:[-\w+]*)|):[^;}]+
