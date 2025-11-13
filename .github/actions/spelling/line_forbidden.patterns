@@ -602,6 +602,9 @@ CLoud
 # Should be `did not exist`
 \bwere not existent\b
 
+# Should be `not exist` or `nonexistent`
+(?<!(?i)(?:IF|WHERE) )\bnot exists\b(?!\()
+
 # Should be `nonexistent`
 \bnon existing\b
 
