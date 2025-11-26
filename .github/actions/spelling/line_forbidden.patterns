@@ -245,6 +245,9 @@
 # Should be `equal to`, `equal width`, or reworded
 \bequal with\b(?! (?:no|respect))
 
+# Should be `eta` or `calculate eta`
+(?i)\bestimated? eta\b
+
 # Should be `ECMA` 262 (JavaScript)
 (?i)\bTS\/EMCA\b|\bEMCA(?: \d|\s*Script)|\bEMCA\b(?=.*\bTS\b)
 
