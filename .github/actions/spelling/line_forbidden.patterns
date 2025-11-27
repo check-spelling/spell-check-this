@@ -452,6 +452,9 @@ CLoud
 # Should be `nearby`
 \bnear by\b
 
+# Should be `necessary`
+(?<=\blonger )needed(?= to\b)
+
 # Should probably be a person named `Nick` or the abbreviation `NIC`
 \bNic\b
 
