@@ -294,6 +294,9 @@
 # unless describing exceptional cases (i.e. emergencies)
 (?<!just )\bin case\b(?! (?:I|s?he|they|of|we|you))
 
+# Should be `in`
+(?<=\b(?:go|reach) back )into(?= time\b)
+
 # Should be `in` or `out`
 (?<=\bfill )up(?= the forms?\b)
 
