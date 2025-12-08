@@ -17,6 +17,7 @@ diables?
 hasta?
 hastat.*
 immediatly
+inital
 linge
 oer
 Sorce
