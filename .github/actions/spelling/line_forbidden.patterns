@@ -668,6 +668,11 @@ CLoud
 # Should be `QuickTime`
 \bQuicktime\b
 
+# Should be `quiet`
+# Unless for some really strange reason you *quite* literally mean *quite*
+# instead of the opposite of load/verbose.
+(?<=--)quite\b
+
 # Should be `recently changed` or `recent changes`
 [Rr]ecent changed
 
