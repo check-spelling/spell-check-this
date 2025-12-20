@@ -436,6 +436,9 @@ CLoud
 # Should be `lose`
 (?<=\bwill )loose\b
 
+# Should be `lowercase`/`uppercase` if writing in en-US
+\b(?:low|upp)er case\b
+
 # Should be `OAuth`
 \bOauth\b
 
