@@ -562,6 +562,9 @@ CLoud
 # Should be `regardless, ...` or `regardless of (whether)`
 \b[Rr]egardless if you\b
 
+# Should be `rely`
+(?<=\b(?i)we )reply(?= on\b)
+
 # Should probably be `(s)` if trying to say "word(s)"
 # False positive if `/s` is used to mean `per second`
 \s[a-z]{2,}[a-rt-z]/s\s(?=[a-oq-z]\w{2}|p[a-df-z]\w|pe[a-qs-z]|per[a-z])
