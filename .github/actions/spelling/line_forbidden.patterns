@@ -22,6 +22,9 @@
 # It's possible this is some strange CSV dialect, but, even so, you could probably move the space.
 \s[A-Za-z]{3,} ,[A-Za-z]{3,}\s
 
+# Should be `could`/`should`/`would`+`'ve`
+\b(?:c|sh|w)ould of\b(?! course)
+
 # Generally words are written with `'s`, not `"s`
 [^=|+']\s\w+"s\s
 
