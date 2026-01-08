@@ -694,6 +694,9 @@ CLoud
 # Should be `reentrant`
 [Rr]e[- ]entrant
 
+# Should be `rely`
+(?<=\bto )really(?= on\b)
+
 # Should be `room for`
 \brooms for (?!lease|rent|sale)
 
