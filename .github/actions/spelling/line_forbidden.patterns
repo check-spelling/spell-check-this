@@ -755,6 +755,9 @@ socio-economic
 # Should be `why`
 , way(?= is [^.]*\?)
 
+# Should be `won't`
+\bwont(?= have\b)
+
 # Should be `wouldn't`
 would'nt
 
