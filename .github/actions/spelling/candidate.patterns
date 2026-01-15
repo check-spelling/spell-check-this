@@ -709,7 +709,7 @@ systemd.*?running in system mode \([-+].*\)$
 # This corpus only had capital letters, but you probably want lowercase ones as well.
 \b[LN]'+[a-z]{2,}\b
 
-# latex (check-spelling >= 0.0.22)
+# LaTeX
 \\\w{2,}\{
 
 # American Mathematical Society (AMS) / Doxygen
@@ -736,7 +736,6 @@ nolint:\s*[\w,]+
 # cygwin paths
 /cygdrive/[a-zA-Z]/(?:Program Files(?: \(.*?\)| ?)(?:/[-+.~\\/()\w ]+)*|[-+.~\\/()\w])+
 
-# in check-spelling@v0.0.22+, printf markers aren't automatically consumed
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
 # alternate printf markers if you run into latex and friends
