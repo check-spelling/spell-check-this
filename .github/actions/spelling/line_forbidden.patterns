@@ -117,6 +117,9 @@
 # -- This rule is experimental, if you find it has a high false-positive rate, please let the maintainer know
 (?:^|[?!.] )(?:(?![Ff]or example|Currently|In \w)[^()?!;,.])+, a(?:\s+(?!and|to\b)\w+)+?\s+an?\b(?![^.:!]+, (?:and|or)\b)
 
+# Should be present tense
+(?<=\bhas to )\w+ed\b
+
 # Should only be `are` or `can`, not both
 \b(?:(?:are|can)\s+){2,}\b
 
