@@ -294,6 +294,9 @@
 # Should be `heartrending` unless talking about drawing hearts
 \b(?i)heart[- ]rendering\b(?![^.?!]*(?:hearts|quirk))
 
+# Should be `how to` or reworded
+(?<=figure out )to(?! which)\b"
+
 # Should probably be `https://`...
 # Markdown generally doesn't assume that links are to urls
 \]\(www\.\w
