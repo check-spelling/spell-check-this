@@ -523,6 +523,9 @@ CLoud
 # The latter if you mean that it can be changed without recompiling but not after the program starts.
 \bswitched on runtime\b
 
+# Should be `of`
+(?<=\brid )off\b
+
 # Should be `Of course,`
 [?.!]\s+Of course\s(?=[-\w\s]+[.?;!,])
 
