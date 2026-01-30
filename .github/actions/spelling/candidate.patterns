@@ -452,7 +452,11 @@ LS0tLS1CRUdJT.*
 
 # uuid:
 \b[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\b
-# hex digits including css/html color classes:
+
+# unicode escaped characters (4)
+\\u[0-9a-fA-F]{4}
+
+# hex digits including css/html color classes
 (?:[\\0][xX]|\\u\{?|[uU]\+|#x?|%23|&H)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|[iu]\d+)\b
 
 # integrity
