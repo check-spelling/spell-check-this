@@ -113,6 +113,9 @@
 # Should be `a large amount` or `large amounts`
 (?<=\bof )large amount(?= of data\b)
 
+# Should be `and not` or `nor`
+\band nor\b
+
 # Should be a list `something, a second thing, or a third thing` or `something, a thing to do a thing`
 # -- This rule is experimental, if you find it has a high false-positive rate, please let the maintainer know
 (?:^|[?!.] )(?:(?![Ff]or example|Currently|In \w)[^()?!;,.])+, a(?:\s+(?!and|to\b)\w+)+?\s+an?\b(?![^.:!]+, (?:and|or)\b)
