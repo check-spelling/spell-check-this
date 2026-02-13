@@ -132,6 +132,9 @@
 # Should probably be `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 (?i)(?!ABCDEFGHIJKLMNOPQRSTUVWXYZ)ABC[A-Z]{21}YZ
 
+# Should be `all over`
+\ballover(?= the\b)
+
 # Should be `please` or `also, please`
 # https://english.stackexchange.com/questions/106165/please-do-also-or-please-also
 \b[Pp]lease(?:, do|) also\b
