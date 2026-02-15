@@ -442,6 +442,9 @@ CLoud
 # Should be `lends`
 \bleads(?= credence)
 
+# Should be `lessen`
+(?<=\bwould )lesson\b
+
 # Should be `few times` or `little time`
 (?<=\bvery )few time\b
 
