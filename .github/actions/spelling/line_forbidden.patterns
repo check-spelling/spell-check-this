@@ -605,6 +605,10 @@ CLoud
 # Should be `set up` (`setup` is a noun / `set up` is a verb)
 \b[Ss]etup(?= (?:an?|the|to)\b)
 
+# Should be `start` or `state`
+# unless D&D (or similar), files/sockets, or statistics
+(?:^|\s)stat of\b(?!.*(?:socket|file|path|roll|battle|race|class|diff|NPC))
+
 # Should be `state`
 \bsate(?=\b|[A-Z])|(?<=[a-z])Sate(?=\b|[A-Z])|(?<=[A-Z]{2})Sate(?=\b|[A-Z])
 
