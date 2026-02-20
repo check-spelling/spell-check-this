@@ -178,6 +178,9 @@
 # Should be `beginning`
 \b(?<=from )begin(?= to end\b)
 
+# Should be `best-effort`
+\bbest-efforts\b
+
 # Should be `bona`
 # unless talking about bones
 \bbone(?= fide\b)
