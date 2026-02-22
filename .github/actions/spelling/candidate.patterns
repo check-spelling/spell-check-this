@@ -764,12 +764,12 @@ W/"[^"]+"
 
 # Compiler flags (Unix, Java/Scala)
 # Use if you have things like `-Pdocker` and want to treat them as `docker`
-(?:^|[\t ,>"'`=(#])-(?:(?:J-|)[DPWXY]|[Llf])(?=[A-Z]{2,}|[A-Z][a-z]|[a-z]{2,})
+(?:^|[\t ,>"'`=\[(#])-(?:(?:J-|)[DPWXY]|[Llf])(?=[A-Z]{2,}|[A-Z][a-z]|[a-z]{2,})
 
 # Compiler flags (Windows / PowerShell)
 # This is a subset of the more general compiler flags pattern.
 # It avoids matching `-Path` to prevent it from being treated as `ath`
-(?:^|[\t ,"'`=(#])-(?:[DPL](?=[A-Z]{2,})|[WXYlf](?=[A-Z]{2,}|[A-Z][a-z]|[a-z]{2,}))
+(?:^|[\t ,"'`=\[(#])-(?:[DPL](?=[A-Z]{2,})|[WXYlf](?=[A-Z]{2,}|[A-Z][a-z]|[a-z]{2,}))
 
 # Compiler flags (linker)
 ,-B
