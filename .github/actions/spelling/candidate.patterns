@@ -549,6 +549,9 @@ content: (['"])[-a-zA-Z=;:/0-9+]*=\g{-1}
 # Regular expressions for (P|p)assword
 \([A-Z]\|[a-z]\)[a-z]+
 
+# Java regular expressions
+Pattern\.(?:compile|matches)\(".*"
+
 # JavaScript regular expressions
 # javascript exec/test regex
 /.{3,}?/[gim]*\.(?:exec|test)\(
