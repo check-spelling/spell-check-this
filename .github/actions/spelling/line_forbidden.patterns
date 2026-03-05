@@ -621,6 +621,9 @@ CLoud
 # Should be `succeed` (or `successfully`)
 (?i)(?<=\bshould )success\b
 
+# Should be `time`
+(?<=\bat a )tim\b(?! (?i)(?:bu|ho)rton)
+
 # Should be `times`
 (?<=\ba few )time\b
 
