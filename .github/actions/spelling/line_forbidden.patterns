@@ -113,6 +113,9 @@
 # Should be `a large amount` or `large amounts`
 (?<=\bof )large amount(?= of data\b)
 
+# Should be `access`
+(?<!\bto )assess(?= token(?!-)\b)
+
 # Should be `afterthought` or `after some thought`
 \bafter thought\b
 
