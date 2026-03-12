@@ -87,6 +87,9 @@ arn:aws:[-/:\w]+
 # AWS VPC
 vpc-\w+
 
+# Azure AD
+\baad\.\w{48}\b
+
 # While you could try to match `http://` and `https://` by using `s?` in `https?://`, sometimes there
 # YouTube url
 \b(?:(?:www\.|)youtube\.com|youtu.be)/(?:channel/|embed/|user/|playlist\?list=|watch\?v=|v/|)[-a-zA-Z0-9?&=_%]*
