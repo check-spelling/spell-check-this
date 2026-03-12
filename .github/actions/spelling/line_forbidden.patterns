@@ -577,6 +577,9 @@ CLoud
 # Should be `or`
 \b(?i)true of .*false\b
 
+# Should be `PagerDuty`
+\bPagerduty\b
+
 # Should be `pale`
 \b(?<=beyond the )pail\b
 
