@@ -896,6 +896,9 @@ Whatsapp
 # Homoglyph (Greek) should be `o`
 [ο](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ο]|(?<=[A-Za-z])[ο](?=[A-Za-z])
 
+# Homoglyph (Turkish) should be `i`
+[ı](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ı]|(?<=[A-Za-z])[ı](?=[A-Za-z])
+
 # Should be `neither/nor` -- or reword
 (?<!do )\bnot\b([^.?!"/(](?!neither|,.*?,))+\bnor\b
 
