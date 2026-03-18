@@ -893,6 +893,9 @@ Whatsapp
 # It's possible that your content is intentionally mixing Cyrillic and Latin scripts, but if it isn't, you definitely want to correct this.
 [авсеорху](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[авсеорху]|(?<=[A-Za-z])[авсеорху](?=[A-Za-z])
 
+# Homoglyph (Greek) should be `o`
+[ο](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ο]|(?<=[A-Za-z])[ο](?=[A-Za-z])
+
 # Should be `neither/nor` -- or reword
 (?<!do )\bnot\b([^.?!"/(](?!neither|,.*?,))+\bnor\b
 
