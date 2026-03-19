@@ -786,6 +786,10 @@ socio-economic
 # Should be `was`
 \bhas been(?= removed in v?\d)
 
+# Should be `waste`
+# Unless really talking about the human torso
+\b(?i)waist[\w\s,']*\b(?:lot|time)\b
+
 # Should be `where`
 \bwere they are\b
 
