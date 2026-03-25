@@ -95,6 +95,9 @@
 # Should be `a few`
 (?<=\bquite )some(?= hands\s)
 
+# Should be `a part`
+(?i)\bapart(?= of\b)
+
 # Should be `a priori` or `and prior`
 (?i)(?<!posteriori)\sand priori\s
 
@@ -115,6 +118,9 @@
 
 # Should be `access`
 (?<!\bto )assess(?= token(?!-)\b)
+
+# Should be `ado`
+(?i)(?<=without further )adieu\b
 
 # Should be `afterthought` or `after some thought`
 \bafter thought\b
@@ -166,11 +172,17 @@
 # https://www.opensourceshakespeare.org/views/plays/play_view.php?WorkID=macbeth&Act=4&Scene=3&Scope=scene
 \bin one fell s[lw]?oop\b
 
+# Should be `aw`
+(?i)\bawe(?=, look)
+
 # Should be `'`
 (?i)\b(?:(?:i|s?he|they|what|who|you)[`"]ll|(?:are|ca|did|do|does|ha[ds]|have|is|should|were|wo|would)n[`"]t|(?:s?he|let|that|there|what|where|who)[`"]s|(?:i|they|we|what|who|you)[`"]ve)\b
 
 # Should be `background` / `intro text` / `introduction` / `prologue` unless it's a brand or relates to _subterfuge_
 (?i)\bpretext\b
+
+# Should be `bear`
+(?i)\bbare(?= with\b)
 
 # Should be `Bitbucket`
 \bBitBucket\b
@@ -180,6 +192,9 @@
 
 # Should be `beginning`
 \b(?<=from )begin(?= to end\b)
+
+# Should be `beside`
+(?i)\bbesides(?= the point)
 
 # Should be `best-effort`
 \bbest-efforts\b
@@ -224,6 +239,9 @@
 # Should be `chart`
 (?i)\bhelm\b.*\bchard\b
 
+# Should be `chute`
+(?i)(?<=laundry )shoot\b
+
 # Should be `code`
 (?<=\bof )a code(?= that\b)
 
@@ -251,8 +269,17 @@
 # Should be `dress code`
 \bdressing code\b
 
+# Should be `dried`
+(?i)(?<=\bcut and )dry\b
+
+# Should be `dryer`
+(?i)(?<=\ba clothes )drier\b
+
 # Should be `effect`
 (?<=\btake )affect\b
+
+# Should be `en`
+(?i)(?<=\bis )on(?= route to\b)
 
 # Should be `end`
 (?<=\b[Ww]e )ends\b
@@ -290,6 +317,9 @@
 # Should be `fall back`
 (?<!\b(?:a|the) |-)\bfallback(?= to)\b
 
+# Should be `fell`
+(?i)\bfoul(?= swoop)
+
 # Should be `for`, `for, to` or `to`
 \b(?:for to|(?<!\bup |-)to for)\b
 
@@ -309,8 +339,14 @@
 # Should be `heartrending` unless talking about drawing hearts
 \b(?i)heart[- ]rendering\b(?![^.?!]*(?:hearts|quirk))
 
+# Should be `homing`
+(?i)\bhoning(?= in on)
+
 # Should be `how to` or reworded
 (?<=figure out )to(?! which)\b"
+
+# Should be `hunker`
+(?i)\bbunker(?= down)
 
 # Should probably be `https://`...
 # Markdown generally doesn't assume that links are to urls
@@ -344,6 +380,9 @@
 
 # Should be `Microsoft`
 \bMicroSoft\b
+
+# Should be `muster`
+(?i)(?<=cut the )mustard
 
 # Should be `OAuth`
 (?:^|[^-/*$])[ '"]oAuth(?: [a-z]|\d+ |[^ a-zA-Z0-9:;_.()])
@@ -385,6 +424,18 @@ CLoud
 
 # Should be `disk space.`
 (?<=to save )disk\.(?![a-zA-Z])
+
+# Should be `diffuse`
+(?i)\bdefuse(?= tensions)
+
+# Should be `drawers`
+(?i)(?<=dresser )draws\b
+
+# Should be `due`
+(?i)\bdo(?= diligence\b)
+
+# Should be `due`
+(?i)(?<=\bin )do(?= (?:course|time))
 
 # Should be `gets`
 \scommand get the\s
@@ -457,6 +508,9 @@ CLoud
 # Should be `few times` or `little time`
 (?<=\bvery )few time\b
 
+# Should be `lo`
+(?i)\blow(?= and behold)
+
 # Should be `log in`
 \blogin to the
 
@@ -528,7 +582,7 @@ CLoud
 \bI maybe\b
 
 # Should be `moot`
-\bmute point\b
+(?i)\bmute(?= point\b)
 
 # Should be `one of`
 (?<!-)\bon of\b
@@ -583,6 +637,9 @@ CLoud
 # Should be `pale`
 \b(?<=beyond the )pail\b
 
+# Should be `piqued`
+(?i)\bpe[ae]ked(?= my interest\b)
+
 # Should be reworded.
 # `passthrough` is an adjective
 # `pass-through` could be a noun
@@ -595,11 +652,17 @@ CLoud
 # Should be `Red Hat`
 \bRed[Hh]at\b
 
+# Should be `rein`
+(?i)(?<=\bfree )(?:rain|reign)\b
+
 # Should be `regardless, ...` or `regardless of (whether)`
 \b[Rr]egardless if you\b
 
 # Should be `rely`
 (?<=\b(?i)we )reply(?= on\b)
+
+# Should be `rought`
+(?i)\brod(?= iron)
 
 # Should probably be `(s)` if trying to say "word(s)"
 # False positive if `/s` is used to mean `per second`
@@ -608,14 +671,26 @@ CLoud
 # Should be `safeguard`
 \bsafe guard\b
 
+# Should be `se`
+(?i)(?<=per )say\b
+
 # Should be `self-signed`
 \bself signed\b
 
 # Should be `SendGrid`
 \bSendgrid\b
 
+# Should be `served`
+(?i)(?<=first come, first )serve(?=\.)
+
 # Should be `set up` (`setup` is a noun / `set up` is a verb)
 \b[Ss]etup(?= (?:an?|the|to)\b)
+
+# Should be `shoo`
+(?i)shoe(?=-in)
+
+# Should be `sleight`
+(?i)\bslight(?= of hand)
 
 # Should be `start` or `state`
 # unless D&D (or similar), files/sockets, or statistics
@@ -626,6 +701,9 @@ CLoud
 
 # Should be `succeed` (or `successfully`)
 (?i)(?<=\bshould )success\b
+
+# Should be `supposed`
+(?i)\bsuppose(?= to\b)
 
 # Should be `time`
 (?<=\bat a )tim\b(?! (?i)(?:bu|ho)rton)
@@ -641,6 +719,9 @@ CLoud
 # RegEx engines don't tend to appreciate variable length negative bookbehind
 (?<!er|ly)(?<!more|less)(?<!worse)(?<!different)\sthan(?= the \w+ must)
 
+# Should be `think`
+(?i)(?<=you've got another )thing(?= coming)
+
 # Should be `this`
 \b[Tt]oday(?= morning\b)
 
@@ -650,6 +731,9 @@ CLoud
 
 # Should be `to use`
 \bto now use\b
+
+# Should be `toe`
+(?i)\btow(?= the line)
 
 # Should be `let's` or `let us`
 \b[Ll]ets (?=throw\.)
@@ -692,6 +776,9 @@ CLoud
 
 # Should be `more than` or `more, then`
 \bmore then\b
+
+# Should be `peek`
+(?i)(?<=sneak )peak
 
 # Should be `Pipeline`/`pipeline`
 (?:(?<=\b|[A-Z])p|P)ipeLine(?:\b|(?=[A-Z]))
@@ -793,8 +880,11 @@ socio-economic
 # Should be `where`
 \bwere they are\b
 
+# Should be `whet`
+(?i)\bwet(?= your appetite)
+
 # Should be `whether or not ...`
-\bwhether(?:\s\w+)+ or not\.
+(?i)\b(?:whe|ra)ther(?:\s\w+)+ or not\.
 
 # Should be `why`
 , way(?= is [^.]*\?)
@@ -804,6 +894,9 @@ socio-economic
 
 # Should be `wouldn't`
 would'nt
+
+# Should be `wreaks`
+(?i)\bwrecks(?= havoc)
 
 # should be `vCenter`
 \bV[Cc]enter\b
@@ -879,6 +972,9 @@ Whatsapp
 
 # Should be `worst`
 (?i)worse-case
+
+# Should be `yea`
+(?i)\byay(?= or nay)
 
 # Should be `you are not` or reworded
 \byour not\b
