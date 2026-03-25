@@ -8,6 +8,16 @@
 # you might not want to check in code where you skip all the other tests.
 #\bfit\(
 
+# Variant selectors
+# Were you really intending to use Variant selectors?
+# https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode
+[\x{FE00}-\x{FE0F}\x{E0100}-\x{E01EF}]{2,}
+
+# Private Use Area
+# Were you really intending to use Private Use Area code points?
+# https://www.aikido.dev/blog/the-return-of-the-invisible-threat-hidden-pua-unicode-hits-github-repositorties
+[\x{F0000}-\x{FFFFD}\x{100000}-\x{10FFFD}]{2,}
+
 # English does not use a hyphen between adverbs and nouns
 # https://twitter.com/nyttypos/status/1894815686192685239
 (?:^|\s)[A-Z]?[a-z]+ly-(?=[a-z]{3,})(?:[.,?!]?\s|$)
