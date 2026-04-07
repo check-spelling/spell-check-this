@@ -170,6 +170,9 @@
 # Should be `anymore`
 \bany more[,.]
 
+# Should be `API`
+\bAPi\b
+
 # Should be `as`
 (?<=\bas well )a\b
 
