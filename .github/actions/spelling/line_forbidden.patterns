@@ -35,6 +35,9 @@
 # Should be `could`/`should`/`would`+`'ve`
 \b(?:c|sh|w)ould of\b(?! course)
 
+# If your system expects v1..v8 uuids, this isn't valid... it's v9
+(?i)\b(?![0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|0{8}(?:-0{4}){3}-0{12}|f{8}(?:-f{4}){3}-f{12})[0-9a-f]{8}-(?:[0-9a-]{4}-){3}[0-9a-f]{12}\b
+
 # Generally words are written with `'s`, not `"s`
 [^=|+']\s\w+"s\s
 
