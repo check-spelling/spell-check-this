@@ -586,7 +586,7 @@ CLoud
 \bPowerpoint\b
 
 # Should be `opt-in`
-(?<!\scan|for)(?<!\smust)(?<!\sif)\sopt in\s
+(?<!\scan|for)(?<!\smust)(?<!\sif)\sopt in\s(?! to)
 
 # Should be `out-of-date` if acting as an adjective before a noun
 \bout of date(?= \w{3,}\b)
