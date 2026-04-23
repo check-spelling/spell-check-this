@@ -115,7 +115,7 @@
 (?i)(?<!posteriori)\sand priori\s
 
 # Should be `a`
-\san (?=(?:[b-dgjkpqtvwz]|f(?!f)|h(?!onest|onou?r|our|s[lv]|tml|ttp|ref)|l(?!cov)|n(?!ginx|grok|pm)|r(?!c)|s(?!s[ho]|log|vg))[a-z]|x(?!\b|[-\d]|ml))
+\san (?=(?:[b-dgjkpqtvwz]|f(?!f|d\b)|h(?!onest|onou?r|our|s[lv]|tml|ttp|ref)|l(?!cov)|n(?!ginx|grok|pm)|r(?!c)|s(?!s[ho]|log|vg))[a-z]|x(?!\b|[-\d]|ml))
 
 # Articles generally shouldn't be used without a noun and a verb
 # - Perhaps you're missing a verb between the noun and the second article.
