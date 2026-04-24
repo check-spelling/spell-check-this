@@ -171,7 +171,7 @@
 (?<!(?:\b[Ii]|git) )(?<![-.])(?<!\d\s?)\bam\b(?!/pm|[:")]| I\b)
 
 # Should be `an`
-(?<=\s)a(?= (?:a(?!nd\s|s\s)|e(?!u)|i(?![ns]\s)|o(?!f\b|nc?e)|u(?!\d|biquitous|int|kr|n[ai]|r[ael]|s[aeiu]|tf\d*|til|topia|uid|vula|v\b)|y(?!aml|arn|e|ie|oga|oung|y)))
+(?<=\s)a(?= (?:a(?!nd\s|s\s)|e(?!u)|i(?![ns]\s)|o(?!f\b|nc?e)|u(?!\d|biquitous|int|kr|n[ai]|r[ael]|ri\b|s[aeiu]|tf\d*|til|topia|uid|vula|v\b)|y(?!aml|arn|e|ie|oga|oung|y)))
 
 # Should be `anymore`
 \bany more[,.]
