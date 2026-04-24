@@ -121,7 +121,7 @@
 # - Perhaps you're missing a verb between the noun and the second article.
 # - Or, perhaps you should remove the first verb and treat the intervening word as a verb?
 # - In some cases you should add a `,` between the noun and the second article.
-\s(?:an?|the)\s(?!wh|(?:how|priori)\b)[A-Za-z][a-z]+[a-qs-z]\s(?:a(?! (?:bit|few|little|lot|posteriori))n?|the(?! same))\s
+\s(?:an?|the)\s(?!wh|(?:how|priori)\b)[A-Za-z][a-z]+[a-qs-z]\s(?:a(?! (?:bit|chance|few|little|lot|posteriori))n?|the(?! same))\s
 
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:a(?! (?:priori|posteriori))n?|the)\s+){2,}\b
