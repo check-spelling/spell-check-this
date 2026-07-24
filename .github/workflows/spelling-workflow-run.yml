@@ -1,0 +1,73 @@
+name: Check Spelling (Report)
+
+# Reporting is handled through a secondary workflow, for details see:
+# https://github.com/check-spelling/check-spelling/wiki/Feature%3A-Restricted-Permissions
+#
+# `jobs.push` runs when a push is made to a repository and the `jobs.spelling` job needs to make a comment
+#   (in odd cases, it might actually run just to collapse a comment, but that's fairly rare)
+#   it needs `contents: write` in order to add a comment.
+#
+# `jobs.pull-request` runs when a pull_request is made to a repository and the `jobs.spelling` job needs to make a comment
+#   or collapse a comment (in the case where it had previously made a comment and now no longer needs to show a comment)
+#   it needs `pull-requests: write` in order to manipulate those comments.
+
+on:
+  workflow_run:
+    workflows:
+    - Check Spelling
+    types:
+    - completed
+
+permissions: {}
+
+jobs:
+  dispatcher:
+    name: Dispatch
+    runs-on: ubuntu-slim
+    permissions:
+      actions: read
+    outputs:
+      followup: ${{ steps.dispatch.outputs.followup }}
+      trigger: ${{ steps.dispatch.outputs.trigger-event }}
+    steps:
+      - name: Dispatch
+        id: dispatch
+        uses: check-spelling/check-spelling@prerelease
+        with:
+          spell_check_this: check-spelling/spell-check-this@prerelease
+          task: followup
+          experimental_apply_changes_via_bot: ${{ contains(github.event_name, 'pull_request') && 1 || 0 }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+  pull-request:
+    name: Report (PR)
+    runs-on: ubuntu-slim
+    permissions:
+      actions: read
+      pull-requests: write
+    needs: dispatcher
+    if: ${{ needs.dispatcher.outputs.followup && contains(needs.dispatcher.outputs.trigger, 'pull_request') }}
+    steps:
+      - name: Report
+        uses: check-spelling/check-spelling@prerelease
+        with:
+          spell_check_this: check-spelling/spell-check-this@prerelease
+          task: ${{ needs.dispatcher.outputs.followup }}
+          experimental_apply_changes_via_bot: 1
+          run-id: ${{ github.event.workflow_run.id }}
+
+  push:
+    name: Report (Push)
+    runs-on: ubuntu-slim
+    needs: dispatcher
+    if: ${{ needs.dispatcher.outputs.followup && ! contains(needs.dispatcher.outputs.trigger, 'pull_request') }}
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Report
+        uses: check-spelling/check-spelling@prerelease
+        with:
+          spell_check_this: check-spelling/spell-check-this@prerelease
+          task: ${{ needs.dispatcher.outputs.followup }}
+          run-id: ${{ github.event.workflow_run.id }}
