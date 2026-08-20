@@ -291,6 +291,12 @@
 # Unless you have a non-default fallback, but that's just weird.
 \bdefault fallback\b
 
+# Should be `defence-in-depth`
+\bdefence in depth\b
+
+# Should be `defense-in-depth`
+\bdefense in depth\b
+
 # Should be `dress code`
 \bdressing code\b
 
