@@ -986,6 +986,9 @@ would'nt
 # Should be `VM`
 \bVm\b
 
+# Should be `vice`
+\bvise(?= versa)
+
 # Should be `void`
 (?<=\bnull and)avoid\b
 
