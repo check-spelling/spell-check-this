@@ -792,6 +792,9 @@ CLoud
 # RegEx engines don't tend to appreciate variable length negative bookbehind
 (?<!er|ly)(?<!more|less)(?<!worse)(?<!different)\sthan(?= the \w+ must)
 
+# Should be `then`
+\bthan(?= sure)
+
 # Should be `think`
 (?i)(?<=you've got another )thing(?= coming)
 
