@@ -57,7 +57,7 @@
 (?<!\.)(?<!\betc|-\w )\.\),
 
 # Complete sentences in parentheticals should not have a space before the period.
-(?<!-\w)\s\.\)(?!.*\}\})
+(?<!-)\w\s\.\)(?!.*\}\})
 
 # Write out small numbers (unless they are code)
 # See https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Writing%20Small%20and%20Large%20Numbers,ten%29%20are%20written%20as%20numerals%2e
