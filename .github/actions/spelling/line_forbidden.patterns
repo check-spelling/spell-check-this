@@ -358,7 +358,7 @@
 (?i)\bfoul(?= swoop)
 
 # Should be `first`
-\bfist(?= pass\b)
+\b[Ff]ist(?= (?:pass|try)\b)
 
 # Should be `for`, `for, to` or `to`
 \b(?:for to|(?<!\bup |-)to for)\b
