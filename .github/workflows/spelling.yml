@@ -66,6 +66,7 @@ on:
       - 'opened'
       - 'reopened'
       - 'synchronize'
+  merge_group:
   issue_comment:
     types:
       - 'created'
@@ -82,7 +83,7 @@ jobs:
     outputs:
       followup: ${{ steps.spelling.outputs.followup }}
     runs-on: ubuntu-latest
-    if: ${{ (contains(github.event_name, 'pull_request') && github.event.pull_request.state == 'open') || github.event_name == 'push' }}
+    if: ${{ (contains(github.event_name, 'pull_request') && github.event.pull_request.state == 'open') || github.event_name == 'push' || github.event_name == 'merge_group' }}
     concurrency:
       group: spelling-${{ github.event.pull_request.number || github.ref }}
       # note: If you use only_check_changed_files, you do not want cancel-in-progress
