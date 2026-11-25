@@ -79,7 +79,6 @@ jobs:
       contents: read
       pull-requests: read
       actions: read
-      security-events: write
     outputs:
       followup: ${{ steps.spelling.outputs.followup }}
     runs-on: ubuntu-latest

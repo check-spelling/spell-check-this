@@ -45,6 +45,7 @@ jobs:
     permissions:
       actions: read
       pull-requests: write
+      security-events: write
     needs: dispatcher
     if: ${{ needs.dispatcher.outputs.followup && contains(needs.dispatcher.outputs.trigger, 'pull_request') }}
     steps:
@@ -55,6 +56,7 @@ jobs:
           task: ${{ needs.dispatcher.outputs.followup }}
           experimental_apply_changes_via_bot: 1
           run-id: ${{ github.event.workflow_run.id }}
+          use_sarif: 1
 
   push:
     name: Report (Push)
@@ -64,6 +66,7 @@ jobs:
     permissions:
       actions: read
       contents: write
+      security-events: write
     steps:
       - name: Report
         uses: check-spelling/check-spelling@prerelease
@@ -71,3 +74,4 @@ jobs:
           spell_check_this: check-spelling/spell-check-this@prerelease
           task: ${{ needs.dispatcher.outputs.followup }}
           run-id: ${{ github.event.workflow_run.id }}
+          use_sarif: 1
